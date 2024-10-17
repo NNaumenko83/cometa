@@ -1,6 +1,10 @@
 import styled from '@emotion/styled'
 
-export const StyledNav = styled.nav``
+export const StyledNav = styled.nav`
+    flex-grow: 1;
+    margin-inline: 70px;
+    max-width: 886px;
+`
 
 export const NavList = styled.ul`
     display: flex;

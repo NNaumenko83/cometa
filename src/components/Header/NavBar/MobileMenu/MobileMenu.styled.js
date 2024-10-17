@@ -5,17 +5,19 @@ export const Sidebar = styled(motion.div)`
     position: fixed;
     display: flex;
     flex-direction: column;
+    height: 100vh;
+
     gap: 2.5625rem;
-    top: 1.875rem;
-    left: 1.25rem;
+    top: 0;
+    left: 0;
     width: 75%;
     max-width: 31.25rem;
-    height: 85%;
-    border-radius: 14px;
 
     z-index: 1100;
     padding: 1.25rem 1.5rem;
-    font-family: 'Archivo-Bold';
+
+    background-color: #ffffff;
+
     color: #ffffff;
 `
 
