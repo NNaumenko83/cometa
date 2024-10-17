@@ -1,7 +1,12 @@
 import { memo } from 'react'
+import { StyledHero } from './Hero.styled'
 
 const Hero = () => {
-    return <div>Hero</div>
+    return (
+        <StyledHero>
+            <></>
+        </StyledHero>
+    )
 }
 
 export default memo(Hero)

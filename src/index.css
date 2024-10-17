@@ -37,7 +37,7 @@ body {
     height: 100%;
     width: 100%;
     min-width: 20rem;
-    background-color: #000000;
+    background: rgb(9, 9, 9);
     overscroll-behavior-y: none;
     color: #ffffff;
     scroll-behavior: smooth;
