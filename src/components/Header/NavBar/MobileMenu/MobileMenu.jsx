@@ -6,14 +6,17 @@ import {
     MenuLink,
     Backdrop,
     // BackButtonIcon,
-    SidebarTitle,
-    LogoLanguagesWrapper,
+    LogoLink,
     MenuAndAuthButtonsWrapper,
     LinksWrapper,
-    // AuthButtonsWrapper,
-    // LoginButton,
-    // SignUpButton,
+    AuthButtonsWrapper,
+    LoginButton,
+    SignUpButton,
 } from './MobileMenu.styled'
+
+import PersonIcon from '@mui/icons-material/Person'
+
+import CometLogo from '../../../../assets/images/CimetaLogoMobileMenu.png'
 
 // import { useState } from 'react'
 // import AuthModal from '../../../AuthModal/AuthModal'
@@ -22,12 +25,16 @@ const menuVariants = {
     open: {
         x: 0,
         transition: {
-            type: 'spring',
-            stiffness: 100,
+            type: 'tween',
+            duration: 0.5,
         },
     },
     closed: {
         x: '-100%',
+        transition: {
+            type: 'tween',
+            duration: 0.5,
+        },
     },
 }
 
@@ -36,12 +43,18 @@ const linkVariants = {
         opacity: 1,
         x: 0,
         transition: {
+            type: 'tween',
             delay: i * 0.15,
+            duration: 0.3,
         },
     }),
     closed: {
         opacity: 0,
         x: -25,
+        transition: {
+            type: 'tween',
+            duration: 0.3, // Додаємо плавний перехід
+        },
     },
 }
 
@@ -76,9 +89,9 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
                             exit={{ opacity: 0 }}
                         />
                         <Sidebar initial="closed" animate="open" exit="closed" variants={menuVariants}>
-                            <LogoLanguagesWrapper>
-                                <SidebarTitle>{`$COGA`}</SidebarTitle>
-                            </LogoLanguagesWrapper>
+                            <LogoLink href="#">
+                                <img src={CometLogo} alt={CometLogo} width={170} />
+                            </LogoLink>
 
                             <MenuAndAuthButtonsWrapper>
                                 <LinksWrapper>
@@ -97,12 +110,12 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
                                         </MenuLink>
                                     ))}
                                 </LinksWrapper>
-                                {/* <AuthButtonsWrapper> */}
-                                {/* <SignUpButton onClick={openRegisterModal}>Sign Up</SignUpButton> */}
-                                {/* <LoginButton onClick={openLoginModal}> */}
-                                Login{/*  <BsFillPersonFill size={18} /> */}
-                                {/* </LoginButton> */}
-                                {/* </AuthButtonsWrapper> */}
+                                <AuthButtonsWrapper>
+                                    <SignUpButton onClick={console.log('Click sign up')}>Sign Up</SignUpButton>
+                                    <LoginButton onClick={() => console.log('Click sign in')}>
+                                        Login <PersonIcon />
+                                    </LoginButton>
+                                </AuthButtonsWrapper>
                             </MenuAndAuthButtonsWrapper>
                         </Sidebar>
                     </>
