@@ -12,5 +12,5 @@ export const StyledHero = styled.section`
 `
 
 export const CometaImg = styled.img`
-    margin: 90px auto 0;
+    margin: 5.625rem auto 0;
 `

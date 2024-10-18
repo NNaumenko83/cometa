@@ -3,8 +3,8 @@ import styled from '@emotion/styled'
 export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
-    margin-block-start: 17px;
-    margin-block-end: 60px;
+    margin-block-start: 1.0625rem;
+    margin-block-end: 3.75rem;
 `
 export const WrapperLeftSide = styled.div`
     display: flex;
@@ -22,20 +22,20 @@ export const Title = styled.h1`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 `
 export const TopPartTitle = styled.div`
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
 `
 export const BottomPartTitle = styled.div`
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
 `
 export const PrimaryTextTitle = styled.span`
     color: rgb(255, 255, 255);
     font-family: League Spartan, sans-serif;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 900;
     line-height: 1.1;
 
@@ -44,7 +44,7 @@ export const PrimaryTextTitle = styled.span`
 export const SocondaryTextTitle = styled.span`
     color: rgb(255, 255, 255);
     font-family: League Spartan, sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 900;
     line-height: 1;
     text-transform: uppercase;
