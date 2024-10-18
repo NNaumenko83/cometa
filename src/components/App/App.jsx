@@ -6,7 +6,8 @@ import Career from '../sections/Career/Career'
 import Contact from '../sections/Contact/Contact'
 import Footer from '../sections/Footer/Footer'
 import Hero from '../sections/Hero/Hero'
-import WorkSpace from '../sections/WorkSpace/WorkSpace'
+import Team from '../sections/Team/Team'
+import CogaInfo from '../sections/CogaInfo/CogaInfo'
 import { AppWrapper } from './App.styled'
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
             <Main>
                 <Hero />
                 <About />
-                <WorkSpace />
+                <Team />
+                <CogaInfo />
                 <Blog />
                 <Career />
                 <Contact />

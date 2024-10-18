@@ -6,7 +6,7 @@ export const ContainerStyled = styled.div`
     flex-grow: 1;
     width: 100%;
     max-width: 1230px;
-    padding-inline: 18px;
+    padding-inline: 16px;
     position: relative;
 
     /* border: 1px solid red; */

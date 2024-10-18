@@ -9,8 +9,10 @@ function Carousel() {
         arrows: false,
         infinite: true,
         slidesToShow: 3,
-        speed: 500,
+        speed: 1000,
         dots: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
 
         responsive: [
             {
@@ -18,7 +20,6 @@ function Carousel() {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    centerMode: false,
                 },
             },
         ],
