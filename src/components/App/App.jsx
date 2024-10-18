@@ -11,6 +11,7 @@ import PoombInfo from '../sections/PoombInfo/PoombInfo'
 
 import { AppWrapper } from './App.styled'
 import SpaceBlog from '../sections/SpaceBlog/SpaceBlog'
+import SpaceMedia from '../sections/SpaceMedia/SpaceMedia'
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                 <CogaInfo />
                 <PoombInfo />
                 <SpaceBlog />
+                <SpaceMedia />
                 <Career />
                 <Contact />
             </Main>

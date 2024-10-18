@@ -1,13 +1,14 @@
 import SectionTitle from '../../SectionTitle/SectionTitle'
-import { StyledSpaceBlog, ContentWrapper } from './SpaceBlog.styled'
+import { StyledSpaceBlog, ContentWrapper, BlogLink, TitleCometaWrapper } from './SpaceBlog.styled'
+import CometaImg from '../../../assets/images/CometaHero.png'
 
 const SpaceBlog = () => {
     return (
         <StyledSpaceBlog>
             <ContentWrapper>
-                <div>
+                <TitleCometaWrapper>
                     <div>
-                        <img src="" alt="Cometa" />
+                        <img src={CometaImg} alt="Cometa" width={100} />
                     </div>
                     <div>
                         <SectionTitle>
@@ -15,7 +16,8 @@ const SpaceBlog = () => {
                             BLOG
                         </SectionTitle>
                     </div>
-                </div>
+                </TitleCometaWrapper>
+                <BlogLink href="#">View posts</BlogLink>
             </ContentWrapper>
         </StyledSpaceBlog>
     )

@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-export const StyledSpaceBlog = styled.section``
+export const StyledSpaceMedia = styled.section``
 
 export const ContentWrapper = styled.div`
     display: flex;
@@ -8,22 +8,15 @@ export const ContentWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
     margin-block: 170px 60px;
 `
 
 export const TitleCometaWrapper = styled.div`
     display: flex;
-    gap: 20px;
+    gap: 18px;
     align-items: center;
+    margin-block-end: 24px;
 `
-export const BlogLink = styled.a`
-    width: 135px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 18px;
 
-    border-radius: 28px;
-    background: rgb(255, 48, 141);
-`
+export const SpaceMediaArticle = styled.article``
