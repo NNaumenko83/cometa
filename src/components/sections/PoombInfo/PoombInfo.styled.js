@@ -20,3 +20,13 @@ export const ButtonWrapper = styled.div`
     justify-content: flex-end;
     margin-block-end: 3.4375rem;
 `
+
+export const TigerImg = styled.img`
+    position: absolute;
+    bottom: 3.4375rem;
+`
+export const TriangleImg = styled.img`
+    position: absolute;
+    bottom: 0;
+    left: 5.375rem;
+`
