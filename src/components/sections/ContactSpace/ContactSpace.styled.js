@@ -25,18 +25,21 @@ export const ContactWrapper = styled.div`
 `
 
 export const ContactButton = styled.a`
-    display: inline-block;
-    background-color: #ff4081;
-    color: white;
-    padding: 0.9375rem 1.875rem;
-    border-radius: 1.875rem;
+    width: 270px;
+    height: 39px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    font-weight: 700;
+
     text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    width: 18.75rem;
-    transition: background-color 0.3s ease;
+    text-decoration-line: underline;
+
+    border-radius: 18px;
+    background: rgb(255, 48, 141);
     &:hover {
         background-color: #e03370;
     }
@@ -49,13 +52,18 @@ export const OfficeTitle = styled.h2`
 `
 
 export const OfficeLocation = styled.div`
-    background-color: #ff4081;
-    color: white;
-    padding: 0.9375rem 1.875rem;
-    border-radius: 1.875rem;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
+    width: 270px;
+    height: 39px;
+    /* Auto layout */
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 18px;
+    background: rgb(255, 48, 141);
+    font-size: 14px;
+    font-weight: 700;
+
     text-align: center;
-    width: 18.75rem;
 `
