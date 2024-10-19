@@ -2,6 +2,7 @@ import styled from '@emotion/styled'
 
 export const StyledSpaceBlog = styled.section`
     padding-block: 10.625rem 3.75rem;
+    position: relative;
 `
 
 export const ContentWrapper = styled.div`
@@ -27,4 +28,25 @@ export const BlogLink = styled.a`
 
     border-radius: 1.75rem;
     background: rgb(255, 48, 141);
+`
+
+export const RocketBigImg = styled.img`
+    position: absolute;
+    left: 0;
+    top: -18%;
+    z-index: 1;
+`
+export const RocketSmallImg = styled.img`
+    position: absolute;
+    bottom: -20%;
+    right: 16px;
+`
+export const TriangleBigImg = styled.img`
+    position: absolute;
+    left: 0;
+    top: 30%;
+`
+export const TriangleSmallImg = styled.img`
+    position: absolute;
+    right: 16px;
 `
