@@ -52,3 +52,8 @@ export const SocondaryTextTitle = styled.span`
     display: flex;
     align-items: center;
 `
+
+export const DotWrapper = styled.div`
+    display: flex;
+    align-items: center;
+`

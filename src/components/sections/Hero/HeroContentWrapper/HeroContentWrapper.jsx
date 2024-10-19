@@ -8,9 +8,11 @@ import {
     SocondaryTextTitle,
     Title,
     TopPartTitle,
+    DotWrapper,
 } from './HeroContentWrapper.styled'
 import LeftTriangle from '../../../../assets/images/MobileImg/HeroTriangLeft.png'
 import RightTriangle from '../../../../assets/images/MobileImg/HeroTriangRight.png'
+import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord'
 
 const HeroContentWrapper = () => {
     return (
@@ -26,7 +28,11 @@ const HeroContentWrapper = () => {
                     </TopPartTitle>
                     <BottomPartTitle>
                         <SocondaryTextTitle>meet</SocondaryTextTitle>
-                        <span>.</span>
+                        <DotWrapper>
+                            {' '}
+                            <FiberManualRecordIcon sx={{ fontSize: '10px' }} />
+                        </DotWrapper>
+
                         <SocondaryTextTitle>crypto</SocondaryTextTitle>
                     </BottomPartTitle>
                 </Title>
