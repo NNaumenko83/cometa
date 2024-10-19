@@ -2,17 +2,17 @@ import styled from '@emotion/styled'
 
 export const StyledLoginButton = styled.button`
     position: absolute;
-    right: 15px;
-    width: 51px;
-    height: 51px;
+    right: 0.9375rem;
+    width: 3.1875rem;
+    height: 3.1875rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
     color: inherit;
 
-    border-radius: 300px;
-    backdrop-filter: blur(20px);
+    border-radius: 18.75rem;
+    backdrop-filter: blur(1.25rem);
     background: rgb(9, 9, 9);
 
     font-size: inherit;

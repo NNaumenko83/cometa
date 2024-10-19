@@ -15,23 +15,23 @@ export const StyledHeader = styled.header`
 export const NavBarWrapper = styled.div`
     display: none;
     font-family: League Spartan, sans-serif;
-    font-size: 10px;
+    font-size: 0.625rem;
     line-height: 1.1;
     letter-spacing: 0%;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 48rem) {
         width: 100%;
-        margin-top: 24px;
+        margin-top: 1.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    @media screen and (min-width: 948px) {
-        font-size: 16px;
+    @media screen and (min-width: 59.25rem) {
+        font-size: 1rem;
     }
 
-    @media screen and (min-width: 1080px) {
-        font-size: 19px;
+    @media screen and (min-width: 67.5rem) {
+        font-size: 1.1875rem;
     }
 `

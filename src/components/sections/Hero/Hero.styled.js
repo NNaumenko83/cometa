@@ -9,9 +9,8 @@ export const StyledHero = styled.section`
     background-size: cover;
     background-position: 50% 15%;
     background-repeat: no-repeat;
-    border: 1px solid red;
 `
 
 export const CometaImg = styled.img`
-    margin: 5.625rem auto 0;
+    margin: 90px auto 0;
 `

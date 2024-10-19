@@ -1,8 +1,6 @@
 import styled from '@emotion/styled'
 
-export const StyledSpaceMedia = styled.section`
-    border: 1px solid red;
-`
+export const StyledSpaceMedia = styled.section``
 
 export const ContentWrapper = styled.div`
     display: flex;
@@ -10,22 +8,22 @@ export const ContentWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 24px;
-    padding-block: 120px 60px;
+    gap: 1.5rem;
+    padding-block: 7.5rem 3.75rem;
 `
 
 export const TitleCometaWrapper = styled.div`
     display: flex;
-    gap: 18px;
+    gap: 1.125rem;
     align-items: center;
-    margin-block-end: 24px;
+    margin-block-end: 1.5rem;
 `
 
 export const SpaceMediaArticle = styled.article`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 1.5625rem;
 `
 
 export const SpaceMediaArticleText = styled.p`
@@ -34,11 +32,11 @@ export const SpaceMediaArticleText = styled.p`
 `
 
 export const ReadMoreLinkWrapper = styled.div`
-    padding-block-end: 4px;
+    padding-block-end: 0.25rem;
 `
 export const ReadMoreLink = styled.a`
     font-family: Inter;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0%;

@@ -1,18 +1,16 @@
 import styled from '@emotion/styled'
 
-export const StyledTeam = styled.section`
-    border: 1px solid red;
-`
+export const StyledTeam = styled.section``
 
 export const ContentWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 3.125rem;
 `
 
 export const BottomButtonText = styled.p`
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     line-height: 1.5;
 
@@ -21,5 +19,5 @@ export const BottomButtonText = styled.p`
 export const ButtontextWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
 `

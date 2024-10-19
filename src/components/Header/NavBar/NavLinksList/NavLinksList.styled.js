@@ -4,11 +4,11 @@ export const StyledList = styled.ul`
     display: flex;
     justify-content: space-around;
     width: 100%;
-    gap: 10px;
+    gap: 0.625rem;
 `
 export const ListItem = styled.li`
-    flex-basis: 118px;
-    height: 37px;
+    flex-basis: 7.375rem;
+    height: 2.3125rem;
 
     display: flex;
     justify-content: center;
@@ -16,18 +16,18 @@ export const ListItem = styled.li`
 
     flex-grow: 1;
 
-    border-radius: 12px;
-    backdrop-filter: blur(20px);
+    border-radius: 0.75rem;
+    backdrop-filter: blur(1.25rem);
     background: rgb(9, 9, 9);
 
-    @media screen and (min-width: 830px) {
-        /* font-size: 12px; */
+    @media screen and (min-width: 51.875rem) {
+        /* font-size: 0.75rem; */
     }
 `
 export const Link = styled.a`
     height: 100%;
     width: 100%;
-    padding: 12px 10px 12px 10px;
+    padding: 0.75rem 0.625rem 0.75rem 0.625rem;
     display: flex;
     align-items: center;
     justify-content: center;
