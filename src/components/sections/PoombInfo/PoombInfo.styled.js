@@ -11,7 +11,7 @@ export const StyledPoombInfoSection = styled.section`
         top: 10%;
         z-index: 2;
         display: block;
-        width: 110%;
+        width: 100%;
         height: 2448px;
 
         /* filter: blur(57.3px); */
@@ -24,7 +24,7 @@ export const StyledPoombInfoSection = styled.section`
         top: 10%;
         z-index: 1;
         display: block;
-        width: 110%;
+        width: 100%;
         height: 2448px;
 
         background-image: url(${Background});

@@ -5,4 +5,5 @@ export const AppWrapper = styled.div`
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+    overflow-y: hidden;
 `

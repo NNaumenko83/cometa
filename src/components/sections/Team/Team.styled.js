@@ -9,7 +9,7 @@ export const StyledTeam = styled.section`
         top: 20%;
         z-index: 2;
         display: block;
-        width: 110%;
+        width: 100%;
         height: 2430px;
 
         filter: blur(57.3px);
@@ -22,7 +22,7 @@ export const StyledTeam = styled.section`
         top: 20%;
         z-index: 1;
         display: block;
-        width: 120%;
+        width: 100%;
         height: 2430px;
 
         background-image: url(${Background});

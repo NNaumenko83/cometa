@@ -12,7 +12,7 @@ export const StyledAbout = styled.section`
         top: 0;
         z-index: 2;
         display: block;
-        width: 110%;
+        width: 100%;
         height: 1500px;
 
         filter: blur(57.3px);
@@ -25,7 +25,7 @@ export const StyledAbout = styled.section`
         top: 0;
         z-index: 1;
         display: block;
-        width: 110%;
+        width: 100%;
         height: 1500px;
 
         background-image: url(${Background});
