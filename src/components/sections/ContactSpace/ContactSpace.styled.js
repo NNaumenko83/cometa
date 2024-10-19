@@ -1,6 +1,8 @@
 import styled from '@emotion/styled'
 
 export const StyledContactSpace = styled.section`
+    position: relative;
+    z-index: 3;
     padding-block: 2.8125rem 7.8125rem;
 `
 

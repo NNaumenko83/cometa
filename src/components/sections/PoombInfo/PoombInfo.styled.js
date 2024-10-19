@@ -14,8 +14,8 @@ export const StyledPoombInfoSection = styled.section`
         width: 110%;
         height: 2448px;
 
-        filter: blur(57.3px);
-        background: rgba(9, 9, 9, 0.6);
+        /* filter: blur(57.3px); */
+        /* background: rgba(9, 9, 9, 0.6); */
     }
 
     ::after {
