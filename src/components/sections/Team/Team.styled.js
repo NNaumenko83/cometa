@@ -1,6 +1,8 @@
 import styled from '@emotion/styled'
 
-export const StyledTeam = styled.section``
+export const StyledTeam = styled.section`
+    border: 1px solid red;
+`
 
 export const ContentWrapper = styled.div`
     display: flex;

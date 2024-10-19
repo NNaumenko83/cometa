@@ -3,6 +3,7 @@ import styled from '@emotion/styled'
 export const StyledAbout = styled.section`
     display: flex;
     flex-direction: column;
+    border: 1px solid red;
 `
 
 export const ImgTitleWrapper = styled.div`

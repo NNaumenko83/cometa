@@ -1,6 +1,9 @@
 import styled from '@emotion/styled'
 
-export const StyledSpaceBlog = styled.section``
+export const StyledSpaceBlog = styled.section`
+    padding-block: 170px 60px;
+    border: 1px solid red;
+`
 
 export const ContentWrapper = styled.div`
     display: flex;
@@ -9,7 +12,6 @@ export const ContentWrapper = styled.div`
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-block: 170px 60px;
 `
 
 export const TitleCometaWrapper = styled.div`
