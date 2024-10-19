@@ -3,6 +3,7 @@ import styled from '@emotion/styled'
 export const StyledSpaceBlog = styled.section`
     padding-block: 10.625rem 3.75rem;
     position: relative;
+    z-index: 3;
 `
 
 export const ContentWrapper = styled.div`

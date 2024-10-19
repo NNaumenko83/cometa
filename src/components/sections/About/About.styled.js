@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import Background from '../../../assets/images/Background_2_mobile.png'
+import Background from '../../../assets/images/Background_3_mobile.png'
 
 export const StyledAbout = styled.section`
     display: flex;
@@ -13,7 +13,7 @@ export const StyledAbout = styled.section`
         z-index: 2;
         display: block;
         width: 110%;
-        height: 1200px;
+        height: 1500px;
 
         filter: blur(57.3px);
         background: rgba(9, 9, 9, 0.6);
@@ -26,7 +26,7 @@ export const StyledAbout = styled.section`
         z-index: 1;
         display: block;
         width: 110%;
-        height: 1200px;
+        height: 1500px;
 
         background-image: url(${Background});
         background-position: top;

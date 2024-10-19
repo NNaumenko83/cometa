@@ -1,6 +1,9 @@
 import styled from '@emotion/styled'
 
-export const StyledSpaceMedia = styled.section``
+export const StyledSpaceMedia = styled.section`
+    position: relative;
+    z-index: 3;
+`
 
 export const ContentWrapper = styled.div`
     display: flex;

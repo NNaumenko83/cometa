@@ -6,11 +6,11 @@ export const StyledTeam = styled.section`
     ::before {
         content: '';
         position: absolute;
-        top: 0;
+        top: 20%;
         z-index: 2;
         display: block;
         width: 110%;
-        height: 1200px;
+        height: 2430px;
 
         filter: blur(57.3px);
         background: rgba(9, 9, 9, 0.6);
@@ -19,7 +19,7 @@ export const StyledTeam = styled.section`
     ::after {
         content: '';
         position: absolute;
-        top: 0;
+        top: 20%;
         z-index: 1;
         display: block;
         width: 120%;
