@@ -1,6 +1,8 @@
 import styled from '@emotion/styled'
 
-export const StyledCareer = styled.section``
+export const StyledCareer = styled.section`
+    padding-block-end: 75px;
+`
 export const CareerContentWrapper = styled.div``
 export const TitleLinkWrapper = styled.div`
     display: flex;
