@@ -2,6 +2,7 @@ import styled from '@emotion/styled'
 
 export const StyledCogaInfoSection = styled.section`
     position: relative;
+    z-index: 3;
     padding-block-start: 120px;
 `
 export const TitleTextWrapper = styled.div`

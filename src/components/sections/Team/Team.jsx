@@ -11,7 +11,6 @@ const Team = () => (
                 <SectionTitle>team space</SectionTitle>
                 <TeamList />
                 <ButtontextWrapper>
-                    {' '}
                     <Button>Let`s</Button>
                     <BottomButtonText>Let`s get to know each other</BottomButtonText>
                 </ButtontextWrapper>
