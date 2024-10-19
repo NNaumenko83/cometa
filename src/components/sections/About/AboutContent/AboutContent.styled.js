@@ -5,6 +5,8 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 50px;
+    position: relative;
+    z-index: 3;
 `
 export const Title = styled.h3`
     font-size: 32px;

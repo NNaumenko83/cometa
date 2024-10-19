@@ -1,6 +1,8 @@
 import styled from '@emotion/styled'
 
 export const FeatureShowcaseWrapper = styled.div`
+    position: relative;
+    z-index: 3;
     display: flex;
     justify-content: space-around;
     padding-block-end: 35px;

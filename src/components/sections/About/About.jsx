@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import AboutTitle from './AboutTitle/AboutTitle'
-import { StyledAbout, ImgTitleWrapper } from './About.styled'
+import { StyledAbout, ImgTitleWrapper, CometaImage } from './About.styled'
 import CometaImg from '../../../assets/images/CometaHero.png'
 import AboutContent from './AboutContent/AboutContent'
 import Container from '../../Container/Container'
@@ -13,7 +13,7 @@ const About = () => {
         <StyledAbout>
             <Container>
                 <ImgTitleWrapper>
-                    <img src={CometaImg} alt="Cometa" width={140} />
+                    <CometaImage src={CometaImg} alt="Cometa" width={140} />
                     <AboutTitle>
                         About <br />
                         Space

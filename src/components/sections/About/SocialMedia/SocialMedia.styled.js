@@ -1,6 +1,8 @@
 import styled from '@emotion/styled'
 
 export const SocialWrapper = styled.div`
+    position: relative;
+    z-index: 3;
     margin-block-start: 20px;
     margin-block-end: 120px;
     display: flex;
