@@ -2,7 +2,7 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import { CarouselWrapper, ImgSlider, SliderImgWrapper } from './Carousel.styled'
-import Immage from '../../../../assets/images/CarouselImg.png'
+import { workspacePhotoes } from '../../../../constants/workSpacePhoto'
 
 function Carousel() {
     const settings = {
@@ -13,41 +13,29 @@ function Carousel() {
         dots: true,
         autoplay: true,
         autoplaySpeed: 5000,
-
+        centerMode: true,
+        centerPadding: '0px',
         responsive: [
             {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    centerMode: false,
                 },
             },
         ],
     }
+
     return (
         <CarouselWrapper>
-            <div className="slider-container">
-                <Slider {...settings} style={{ display: 'flex', gap: '10px' }}>
-                    <SliderImgWrapper>
-                        <ImgSlider src={Immage} alt="" width={390} />
+            <Slider {...settings}>
+                {workspacePhotoes.map((item, index) => (
+                    <SliderImgWrapper key={index}>
+                        <ImgSlider src={item} alt="" />
                     </SliderImgWrapper>
-                    <SliderImgWrapper>
-                        <ImgSlider src={Immage} alt="" width={390} />
-                    </SliderImgWrapper>
-                    <SliderImgWrapper>
-                        <ImgSlider src={Immage} alt="" width={390} />
-                    </SliderImgWrapper>
-                    <SliderImgWrapper>
-                        <ImgSlider src={Immage} alt="" width={390} />
-                    </SliderImgWrapper>
-                    <SliderImgWrapper>
-                        <ImgSlider src={Immage} alt="" width={390} />
-                    </SliderImgWrapper>
-                    <SliderImgWrapper>
-                        <ImgSlider src={Immage} alt="" width={390} />
-                    </SliderImgWrapper>
-                </Slider>
-            </div>
+                ))}
+            </Slider>
         </CarouselWrapper>
     )
 }
