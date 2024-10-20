@@ -6,7 +6,6 @@ import AboutContent from './AboutContent/AboutContent'
 import Container from '../../Container/Container'
 import SocialMedia from './SocialMedia/SocialMedia'
 import FeatureShowcase from './FeatureShowcase/FeatureShowcase'
-import Carousel from './Carousel/Carousel'
 
 const About = () => {
     return (
@@ -22,7 +21,6 @@ const About = () => {
                 <AboutContent />
                 <SocialMedia />
                 <FeatureShowcase />
-                <Carousel />
             </Container>
         </StyledAbout>
     )

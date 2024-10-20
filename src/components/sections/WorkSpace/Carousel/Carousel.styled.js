@@ -3,9 +3,6 @@ import styled from '@emotion/styled'
 export const CarouselWrapper = styled.div`
     width: 100%;
     max-width: 1200px;
-    margin: 120px auto 160px;
-    position: relative;
-    z-index: 3;
 
     .slick-dots {
         bottom: -30px;

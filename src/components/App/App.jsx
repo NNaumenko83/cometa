@@ -13,6 +13,7 @@ import { AppWrapper } from './App.styled'
 import SpaceBlog from '../sections/SpaceBlog/SpaceBlog'
 import SpaceMedia from '../sections/SpaceMedia/SpaceMedia'
 import ContactSpace from '../sections/ContactSpace/ContactSpace'
+import WorkSpace from '../sections/WorkSpace/WorkSpace'
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
             <Main>
                 <Hero />
                 <About />
+                <WorkSpace />
                 <Team />
                 <CogaInfo />
                 <PoombInfo />
