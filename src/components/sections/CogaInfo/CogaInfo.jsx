@@ -9,33 +9,53 @@ import {
     CapibaraImg,
     ButtonWrapper,
     CometaImg,
+    CometaImgWrapperMobile,
+    CapibaraTriangleWrapperMobile,
+    CapibaraTriangleWrapperDesktop,
+    CometaImgWrapperDesktop,
+    CogaInfoWrapper,
 } from './CogaInfo.styled'
 import InfoText from '../../Infotext/InfoText'
 import Button from '../../Button/Button'
 import Triangle from '../../../assets/images/CogaInfoTriangle.png'
 import CapibaraAustro from '../../../assets/images/CogaInfoCapibaraImg.png'
+import CapibaraAustroDesktop from '../../../assets/images/CogaInfoCapibaraDesktop.png'
 import CometaImage from '../../../assets/images/CometaHero.png'
 
 const CogaInfo = () => {
     return (
         <StyledCogaInfoSection>
             <Container>
-                <ContentWrapper>
-                    <TitleTextWrapper>
-                        <SectionTitle>what`s coga</SectionTitle>
-                        <InfoText>
-                            $COGA, the native token of Comet Space, powers Poomb Creatures. Players earn, trade, and invest $COGA, creating
-                            real-world value. The Play-to-Earn (P2E) model lets players earn income through gameplay and NFTs.
-                        </InfoText>
-                    </TitleTextWrapper>
-                    <ButtonWrapper>
-                        <CometaImg src={CometaImage} alt="Cometa" width={121} />
-                        <Button>$COGA</Button>
-                    </ButtonWrapper>
-                </ContentWrapper>
+                <CogaInfoWrapper>
+                    <CometaImgWrapperDesktop>
+                        <CometaImg src={CometaImage} alt="Cometa" width={285} />
+                    </CometaImgWrapperDesktop>
+                    <ContentWrapper>
+                        <TitleTextWrapper>
+                            <SectionTitle>what`s coga</SectionTitle>
+                            <InfoText>
+                                $COGA, the native token of Comet Space, powers Poomb Creatures. Players earn, trade, and invest $COGA,
+                                creating real-world value. The Play-to-Earn (P2E) model lets players earn income through gameplay and NFTs.
+                            </InfoText>
+                        </TitleTextWrapper>
+                        <ButtonWrapper>
+                            <CometaImgWrapperMobile>
+                                <CometaImg src={CometaImage} alt="Cometa" width={121} />
+                            </CometaImgWrapperMobile>
+
+                            <Button>$COGA</Button>
+                        </ButtonWrapper>
+                    </ContentWrapper>
+                    <CapibaraTriangleWrapperDesktop>
+                        <TriangleImg src={Triangle} alt="Triangle" width={247} />
+                        <CapibaraImg src={CapibaraAustroDesktop} alt="CapibaraAustroDesktop" width={387} />
+                    </CapibaraTriangleWrapperDesktop>
+                </CogaInfoWrapper>
             </Container>
-            <TriangleImg src={Triangle} alt="Triangle" width={247} />
-            <CapibaraImg src={CapibaraAustro} alt="Triangle" width={248} />
+            <CapibaraTriangleWrapperMobile>
+                <TriangleImg src={Triangle} alt="Triangle" width={247} />
+                <CapibaraImg src={CapibaraAustro} alt="CapibaraAustroDesktop" width={248} />
+            </CapibaraTriangleWrapperMobile>
         </StyledCogaInfoSection>
     )
 }

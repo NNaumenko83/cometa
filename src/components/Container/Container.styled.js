@@ -11,7 +11,7 @@ export const ContainerStyled = styled.div`
 
     /* border: 0.0625rem solid red; */
 
-    @media screen and (min-width: 48rem) {
+    @media screen and (min-width: 768px) {
         max-width: 1230px;
         padding-inline: 0.9375rem;
     }
