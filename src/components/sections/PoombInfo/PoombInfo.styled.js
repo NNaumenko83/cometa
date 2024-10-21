@@ -32,6 +32,10 @@ export const StyledPoombInfoSection = styled.section`
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    @media screen and (min-width: 768px) {
+        padding-block-start: 25rem;
+    }
 `
 export const TitleTextWrapper = styled.div`
     display: flex;
@@ -45,6 +49,10 @@ export const ContentWrapper = styled.div`
     flex-direction: column;
     gap: 18.75rem;
     align-items: center;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+    }
 `
 export const ButtonWrapper = styled.div`
     width: 100%;
@@ -57,10 +65,74 @@ export const TigerImg = styled.img`
     position: absolute;
     z-index: 3;
     bottom: 3.4375rem;
+
+    @media screen and (min-width: 768px) {
+        bottom: -3.5rem;
+    }
 `
 export const TriangleImg = styled.img`
     position: absolute;
     z-index: 3;
     bottom: 0;
     left: 5.375rem;
+
+    @media screen and (min-width: 768px) {
+        bottom: -3.5rem;
+    }
+`
+export const ImgTitleWrapper = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+`
+export const CometaImgWrapperModile = styled.div`
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+`
+
+export const TitleBreak = styled.div`
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+`
+
+export const TitleTextButtonWrapper = styled.div`
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 318px;
+    flex-grow: 1;
+
+    @media screen and (min-width: 768px) {
+        flex-basis: 489px;
+        max-width: 489px;
+        gap: 42px;
+    }
+`
+
+export const TriangleCapibaraWrapperDesktop = styled.div`
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        flex-basis: 452px;
+        padding-inline-end: 60px;
+    }
+`
+export const TriangleCapibaraWrapperMobile = styled.div`
+    /* position: absolute; */
+
+    z-index: 3;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+`
+
+export const CometaImgWrapperDesktop = styled.div`
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        margin-inline-start: auto;
+    }
 `
