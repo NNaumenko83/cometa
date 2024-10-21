@@ -15,5 +15,10 @@ export const StyledButton = styled.button`
 
     font-size: 1.375rem;
     font-weight: 900;
+
     color: inherit;
+
+    @media screen and (min-width: 768px) {
+        font-size: 24px;
+    }
 `

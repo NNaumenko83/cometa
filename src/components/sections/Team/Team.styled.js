@@ -39,6 +39,10 @@ export const ContentWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 3.125rem;
+
+    @media screen and (min-width: 768px) {
+        gap: 1.875rem;
+    }
 `
 
 export const BottomButtonText = styled.p`
@@ -52,4 +56,8 @@ export const ButtontextWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0.625rem;
+
+    @media screen and (min-width: 768px) {
+        margin-inline-start: auto;
+    }
 `

@@ -2,6 +2,10 @@ import styled from '@emotion/styled'
 
 export const MemberCard = styled.li`
     text-align: center;
+
+    @media screen and (min-width: 768px) {
+        flex-basis: 33%;
+    }
 `
 
 export const ImageWrapper = styled.div`
@@ -21,6 +25,8 @@ export const MemberImage = styled.img`
 export const MemberPosition = styled.h3`
     margin-top: 30px;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 
     color: rgb(255, 255, 255);
 

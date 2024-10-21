@@ -9,7 +9,8 @@ const TeamMember = ({ name, position, description, imageUrl }) => {
             </ImageWrapper>
 
             <MemberPosition>
-                {position} {name}
+                <span>{position} </span>
+                <span> {name}</span>
             </MemberPosition>
             <MemberDescription>{description}</MemberDescription>
         </MemberCard>
