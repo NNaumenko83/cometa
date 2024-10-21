@@ -25,20 +25,21 @@ export const LogoWrapper = styled.div`
     @media screen and (min-width: 768px) {
         margin-block-start: 170px;
     }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1440px) {
         margin-block-start: 260px;
     }
 `
 
 export const CometaImg = styled.img`
-    width: 125px;
+    width: 174px;
     position: absolute;
-    top: -100%;
+
+    top: -80%;
     @media screen and (min-width: 768px) {
         width: 300px;
         top: -70%;
     }
-    @media screen and (min-width: 1025px) {
+    @media screen and (min-width: 1440px) {
         width: 500px;
         top: -55%;
     }
@@ -46,12 +47,12 @@ export const CometaImg = styled.img`
 
 export const CometaLogoImg = styled.img`
     position: relative;
-    z-index: 2;
-    width: 150px;
+    z-index: 5;
+    width: 200px;
     @media screen and (min-width: 768px) {
         width: 500px;
     }
-    @media screen and (min-width: 1025px) {
+    @media screen and (min-width: 1440px) {
         width: 707px;
     }
 `
