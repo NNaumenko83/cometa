@@ -43,7 +43,6 @@ export const ImgTitleWrapper = styled.div`
     justify-content: center;
     align-items: center;
 
-    border: 1px solid tomato;
     @media screen and (min-width: 768px) {
         gap: 1.75rem;
     }
