@@ -1,5 +1,8 @@
 import { Wrapper, Title, TitlePink, Text, TitleBreak, FirstPartAboutContent, SecondPartAboutContent } from './AboutContent.styled'
 
+
+
+
 const AboutContent = () => {
     return (
         <Wrapper>

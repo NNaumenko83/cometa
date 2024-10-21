@@ -55,3 +55,23 @@ export const CometaImage = styled.img`
         width: 184px;
     }
 `
+
+export const StyledLeftTriangle = styled.img`
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        position: absolute;
+        top: -127px;
+        z-index: 2;
+    }
+`
+export const StyledRightTriangle = styled.img`
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 55px;
+    }
+`
