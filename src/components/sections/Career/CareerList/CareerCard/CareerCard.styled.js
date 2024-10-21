@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-export const StyledCard = styled.div`
+export const StyledCard = styled.li`
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
@@ -14,7 +14,9 @@ export const StyledCard = styled.div`
 export const ImageWrapper = styled.div`
     width: 100%;
     height: 329px;
-    border-radius: 16px;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+
     overflow: hidden;
     position: relative;
 

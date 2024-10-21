@@ -33,11 +33,12 @@ export const StyledCareer = styled.section`
     }
 
     @media screen and (min-width: 768px) {
+        padding-block: 145px 75px;
     }
 `
 export const CareerContentWrapper = styled.div`
     position: relative;
-    z-index: 3;
+    z-index: 4;
 `
 export const TitleLinkWrapper = styled.div`
     display: flex;
@@ -70,4 +71,16 @@ export const CareerLink = styled.a`
         border-radius: 28px;
         background: rgb(255, 48, 141);
     }
+`
+export const StyledCometaImg = styled.img`
+    position: absolute;
+    top: -100px;
+    left: 250px;
+    z-index: 3;
+`
+export const StyledTriangleImg = styled.img`
+    position: absolute;
+    top: -50px;
+    left: 530px;
+    z-index: 3;
 `
