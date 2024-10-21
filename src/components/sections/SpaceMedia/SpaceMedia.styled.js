@@ -27,14 +27,29 @@ export const SpaceMediaArticle = styled.article`
     flex-direction: column;
     align-items: center;
     gap: 1.5625rem;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 1.25rem;
+    }
 `
 
 export const SpaceMediaArticleText = styled.p`
+    font-size: 14px;
     line-height: 1.5;
     text-align: left;
+
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+    }
 `
 
-export const ReadMoreLinkWrapper = styled.div`
+export const ImgAndReadMoreLinkWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     padding-block-end: 0.25rem;
 `
 export const ReadMoreLink = styled.a`
@@ -42,6 +57,25 @@ export const ReadMoreLink = styled.a`
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.2;
-    letter-spacing: 0%;
     text-align: center;
+`
+
+export const CometaImage = styled.img`
+    position: relative;
+    width: 80px;
+    z-index: 3;
+    @media screen and (min-width: 768px) {
+        width: 184px;
+    }
+`
+
+export const ImgWrapper = styled.div`
+    @media screen and (min-width: 768px) {
+        width: 387px;
+    }
+`
+export const StyledImgMedia = styled.img`
+    @media screen and (min-width: 768px) {
+        width: 387px;
+    }
 `

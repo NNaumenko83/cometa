@@ -90,7 +90,7 @@ export const TriangleSmallImg = styled.img`
 `
 export const CometaImage = styled.img`
     position: relative;
-    width: 140px;
+    width: 100px;
     z-index: 3;
     @media screen and (min-width: 768px) {
         width: 184px;

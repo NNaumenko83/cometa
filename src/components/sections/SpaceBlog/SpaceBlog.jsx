@@ -24,7 +24,7 @@ const SpaceBlog = () => {
                 <ContentWrapper>
                     <TitleCometaWrapper>
                         <div>
-                            <CometaImage src={CometaImg} alt="Cometa" width={100} />
+                            <CometaImage src={CometaImg} alt="Cometa" width={183} />
                         </div>
                         <div>
                             <SectionTitleBig>
