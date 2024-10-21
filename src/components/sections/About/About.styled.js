@@ -38,10 +38,21 @@ export const StyledAbout = styled.section`
 export const ImgTitleWrapper = styled.div`
     margin-inline: auto;
     display: flex;
+
     gap: 0.625rem;
+    justify-content: center;
     align-items: center;
+
+    border: 1px solid tomato;
+    @media screen and (min-width: 768px) {
+        gap: 1.75rem;
+    }
 `
 export const CometaImage = styled.img`
     position: relative;
+    width: 140px;
     z-index: 3;
+    @media screen and (min-width: 768px) {
+        width: 184px;
+    }
 `

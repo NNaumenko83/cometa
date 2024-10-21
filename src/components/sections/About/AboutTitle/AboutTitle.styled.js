@@ -5,8 +5,12 @@ export const StyledTitle = styled.h2`
     z-index: 3;
     font-size: 3.75rem;
     font-weight: 900;
-    line-height: 3.4375rem;
     letter-spacing: 0%;
     text-align: center;
+
     text-transform: uppercase;
+
+    @media screen and (min-width: 768px) {
+        font-size: 100px;
+    }
 `

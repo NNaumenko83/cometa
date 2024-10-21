@@ -12,7 +12,7 @@ const About = () => {
         <StyledAbout>
             <Container>
                 <ImgTitleWrapper>
-                    <CometaImage src={CometaImg} alt="Cometa" width={140} />
+                    <CometaImage src={CometaImg} alt="Cometa" width={184} />
                     <AboutTitle>
                         About <br />
                         Space
