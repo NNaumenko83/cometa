@@ -20,6 +20,7 @@ import InfoText from '../../Infotext/InfoText'
 import Button from '../../Button/Button'
 import Container from '../../Container/Container'
 import TigerImage from '../../../assets/images/TigerPoomgImg.png'
+import TigerImageDesktop from '../../../assets/images/TigerPoomgImgDesktop.png'
 import TriangleImage from '../../../assets/images/TrianglePoombImg.png'
 import CometaImage from '../../../assets/images/CometaHero.png'
 
@@ -30,7 +31,7 @@ const PoombInfo = () => {
                 <ContentWrapper>
                     <TriangleCapibaraWrapperDesktop>
                         <TriangleImg src={TriangleImage} alt="TriangleImage" width={248} />
-                        <TigerImg src={TigerImage} alt="TigerImage" width={452} />
+                        <TigerImg src={TigerImageDesktop} alt="TigerImage" width={452} />
                     </TriangleCapibaraWrapperDesktop>
                     <TitleTextButtonWrapper>
                         <TitleTextWrapper>

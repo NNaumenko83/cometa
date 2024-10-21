@@ -51,6 +51,7 @@ export const ContentWrapper = styled.div`
     align-items: center;
 
     @media screen and (min-width: 768px) {
+        gap: 0;
         flex-direction: row;
     }
 `
@@ -58,7 +59,6 @@ export const ButtonWrapper = styled.div`
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-block-end: 3.4375rem;
 `
 
 export const TigerImg = styled.img`
@@ -67,7 +67,8 @@ export const TigerImg = styled.img`
     bottom: 3.4375rem;
 
     @media screen and (min-width: 768px) {
-        bottom: -3.5rem;
+        left: 0rem;
+        bottom: 0rem;
     }
 `
 export const TriangleImg = styled.img`
@@ -77,6 +78,7 @@ export const TriangleImg = styled.img`
     left: 5.375rem;
 
     @media screen and (min-width: 768px) {
+        left: 10rem;
         bottom: -3.5rem;
     }
 `
