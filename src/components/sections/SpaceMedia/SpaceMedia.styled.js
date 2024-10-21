@@ -19,7 +19,7 @@ export const TitleCometaWrapper = styled.div`
     display: flex;
     gap: 1.125rem;
     align-items: center;
-    margin-block-end: 1.5rem;
+    /* margin-block-end: 1.5rem; */
 `
 
 export const SpaceMediaArticle = styled.article`
