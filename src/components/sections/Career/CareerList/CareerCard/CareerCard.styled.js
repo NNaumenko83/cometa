@@ -73,6 +73,10 @@ export const CardDescription = styled.p`
     font-size: 16px;
     font-weight: 400;
     text-align: left;
+
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+    }
 `
 
 export const CardActions = styled.div`

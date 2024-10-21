@@ -5,4 +5,8 @@ export const StyledCareerList = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 18px;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+    }
 `

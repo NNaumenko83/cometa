@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 import Background from '../../../assets/images/Background_5_mobile.png'
 
 export const StyledCareer = styled.section`
-    padding-block-end: 75px;
+    padding-block: 60px 75px;
     position: relative;
     ::before {
         content: '';
@@ -31,6 +31,9 @@ export const StyledCareer = styled.section`
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    @media screen and (min-width: 768px) {
+    }
 `
 export const CareerContentWrapper = styled.div`
     position: relative;
@@ -38,8 +41,14 @@ export const CareerContentWrapper = styled.div`
 `
 export const TitleLinkWrapper = styled.div`
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
+    margin-block-end: 17px;
+    @media screen and (min-width: 768px) {
+        justify-content: center;
+        gap: 10px;
+        margin-block-end: 21px;
+    }
 `
 
 export const CareerLink = styled.a`
@@ -52,4 +61,13 @@ export const CareerLink = styled.a`
     box-shadow: 2px 8px 11.9px 0px rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(20px);
     background: rgb(255, 48, 141);
+
+    @media screen and (min-width: 768px) {
+        width: 48px;
+        height: 48px;
+        padding: 8px 12px 8px 12px;
+
+        border-radius: 28px;
+        background: rgb(255, 48, 141);
+    }
 `
