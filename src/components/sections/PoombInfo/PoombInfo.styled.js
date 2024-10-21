@@ -35,6 +35,7 @@ export const StyledPoombInfoSection = styled.section`
 
     @media screen and (min-width: 768px) {
         padding-block-start: 25rem;
+        padding-block-end: 16.75rem;
     }
 `
 export const TitleTextWrapper = styled.div`

@@ -1,5 +1,3 @@
-import SectionTitle from '../../SectionTitle/SectionTitle'
-
 import {
     StyledSpaceBlog,
     ContentWrapper,
@@ -9,6 +7,7 @@ import {
     RocketSmallImg,
     TriangleBigImg,
     TriangleSmallImg,
+    CometaImage,
 } from './SpaceBlog.styled'
 import CometaImg from '../../../assets/images/CometaHero.png'
 import RocketBigImage from '../../../assets/images/RocketBlogImg.png'
@@ -16,6 +15,7 @@ import RocketSmallImage from '../../../assets/images/RocketBlogImgSmall.png'
 import TriangleBigImage from '../../../assets/images/BlogTriangleBig.png'
 import TriangleSmallImage from '../../../assets/images/BlogTriangleSmall.png'
 import Container from '../../Container/Container'
+import SectionTitleBig from '../../SectionTitleBig/SectionTitleBig'
 
 const SpaceBlog = () => {
     return (
@@ -24,13 +24,13 @@ const SpaceBlog = () => {
                 <ContentWrapper>
                     <TitleCometaWrapper>
                         <div>
-                            <img src={CometaImg} alt="Cometa" width={100} />
+                            <CometaImage src={CometaImg} alt="Cometa" width={100} />
                         </div>
                         <div>
-                            <SectionTitle>
+                            <SectionTitleBig>
                                 SPACE <br />
                                 BLOG
-                            </SectionTitle>
+                            </SectionTitleBig>
                         </div>
                     </TitleCometaWrapper>
                     <BlogLink href="#">View posts</BlogLink>
@@ -40,7 +40,7 @@ const SpaceBlog = () => {
                 </ContentWrapper>
             </Container>
 
-            <TriangleBigImg src={TriangleBigImage} alt="TriangleBigImage" width={100} />
+            <TriangleBigImg src={TriangleBigImage} alt="TriangleBigImage" width={250} />
         </StyledSpaceBlog>
     )
 }
