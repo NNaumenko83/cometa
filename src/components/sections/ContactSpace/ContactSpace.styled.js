@@ -15,10 +15,9 @@ export const ContentWrapper = styled.div`
     flex-direction: column;
     gap: 1.25rem;
     max-width: 550px;
-
-    @media screen and (min-width: 768px) {
-        margin-inline: auto;
-    }
+    margin-inline: auto;
+    position: relative;
+    z-index: 5;
 `
 
 export const ContactDescription = styled.p`

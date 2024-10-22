@@ -21,8 +21,8 @@ const Career = () => {
                     </TitleLinkWrapper>
                     <CareerList />
                 </CareerContentWrapper>
-                <StyledCometaImg src={CometaImg} alt="Cometa" />
-                <StyledTriangleImg src={TriangleImg} alt="Triangle" />
+                <StyledCometaImg src={CometaImg} alt="Cometa" width={690} />
+                <StyledTriangleImg src={TriangleImg} alt="Triangle" width={168} />
             </Container>
         </StyledCareer>
     )

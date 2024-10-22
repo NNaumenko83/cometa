@@ -4,6 +4,7 @@ import Background from '../../../assets/images/Background_5_mobile.png'
 export const StyledCareer = styled.section`
     padding-block: 60px 75px;
     position: relative;
+    /* overflow: hidden; */
     ::before {
         content: '';
         position: absolute;
@@ -73,14 +74,26 @@ export const CareerLink = styled.a`
     }
 `
 export const StyledCometaImg = styled.img`
-    position: absolute;
-    top: -100px;
-    left: 250px;
-    z-index: 3;
+    display: none;
+    @media screen and (min-width: 768px) {
+        width: 500px;
+        display: block;
+        position: absolute;
+        top: -100px;
+        left: 250px;
+        z-index: 3;
+    }
+    @media screen and (min-width: 950px) {
+        width: 690px;
+    }
 `
 export const StyledTriangleImg = styled.img`
-    position: absolute;
-    top: -50px;
-    left: 530px;
-    z-index: 3;
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        position: absolute;
+        top: -50px;
+        left: 530px;
+        z-index: 3;
+    }
 `
