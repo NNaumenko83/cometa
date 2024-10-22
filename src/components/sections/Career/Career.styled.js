@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
 import Background from '../../../assets/images/Background_5_mobile.png'
+import BackgroundDesktop from '../../../assets/images/CareerBackgroundDesktop.png'
 
 export const StyledCareer = styled.section`
     padding-block: 60px 75px;
@@ -35,6 +36,17 @@ export const StyledCareer = styled.section`
 
     @media screen and (min-width: 768px) {
         padding-block: 145px 75px;
+        ::before {
+            top: -20%;
+
+            height: 1646px;
+        }
+        ::after {
+            top: -20%;
+            background-image: url(${BackgroundDesktop});
+
+            height: 1646px;
+        }
     }
 `
 export const CareerContentWrapper = styled.div`
