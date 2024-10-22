@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
 import Background from '../../../assets/images/Background_3_mobile.png'
+import BackgroundDesktop from '../../../assets/images/Background_2.png'
 
 export const StyledAbout = styled.section`
     display: flex;
@@ -10,7 +11,7 @@ export const StyledAbout = styled.section`
         content: '';
         position: absolute;
         top: 0;
-        z-index: 2;
+        z-index: 1;
         display: block;
         width: 100%;
         height: 1500px;
@@ -23,7 +24,7 @@ export const StyledAbout = styled.section`
         content: '';
         position: absolute;
         top: 0;
-        z-index: 1;
+        z-index: 0;
         display: block;
         width: 100%;
         height: 1500px;
@@ -32,6 +33,16 @@ export const StyledAbout = styled.section`
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    @media screen and (min-width: 768px) {
+        ::before {
+            height: 1207px;
+        }
+        ::after {
+            height: 1207px;
+            background-image: url(${BackgroundDesktop});
+        }
     }
 `
 

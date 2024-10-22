@@ -30,6 +30,15 @@ export const StyledTeam = styled.section`
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    @media screen and (min-width: 768px) {
+        ::before {
+            display: none;
+        }
+        ::after {
+            display: none;
+        }
+    }
 `
 
 export const ContentWrapper = styled.div`

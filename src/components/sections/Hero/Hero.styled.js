@@ -41,10 +41,12 @@ export const StyledHero = styled.section`
 
     @media screen and (min-width: 768px) {
         ::before {
+            top: 0;
             height: 1331px;
         }
 
         ::after {
+            top: 0;
             height: 1331px;
             background-image: url(${heroBackground});
         }

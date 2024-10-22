@@ -1,8 +1,37 @@
 import styled from '@emotion/styled'
+import backgroundDesktop from '../../../assets/images/Background_3.png'
 
 export const StyledWorkSpace = styled.section`
     position: relative;
-    z-index: 3;
+
+    @media screen and (min-width: 768px) {
+        ::before {
+            content: '';
+            position: absolute;
+            top: -250px;
+            z-index: 0;
+            display: block;
+            width: 100%;
+            height: 2425px;
+
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 1) 200px, rgba(9, 9, 9, 0.6) 300px);
+            filter: blur(57.3px);
+        }
+
+        ::after {
+            content: '';
+            position: absolute;
+            top: -150px;
+            z-index: -1;
+            display: block;
+            width: 100%;
+            height: 2325px;
+
+            background-image: url(${backgroundDesktop});
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
 `
 
 export const WorkSpaceContent = styled.div`

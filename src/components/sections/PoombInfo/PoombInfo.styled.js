@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
 import Background from '../../../assets/images/Background_4_mobile.png'
+import BackgroundDesktop from '../../../assets/images/BackgroundPoombDesktop.png'
 
 export const StyledPoombInfoSection = styled.section`
     padding-block-start: 7.5rem;
@@ -14,8 +15,8 @@ export const StyledPoombInfoSection = styled.section`
         width: 100%;
         height: 2448px;
 
-        /* filter: blur(57.3px); */
-        /* background: rgba(9, 9, 9, 0.6); */
+        filter: blur(57.3px);
+        background: rgba(9, 9, 9, 0.6);
     }
 
     ::after {
@@ -36,6 +37,18 @@ export const StyledPoombInfoSection = styled.section`
     @media screen and (min-width: 768px) {
         padding-block-start: 25rem;
         padding-block-end: 16.75rem;
+
+        ::before {
+            top: 0;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 1) 10px, rgba(9, 9, 9, 0.6) 200px);
+
+            height: 2447px;
+        }
+        ::after {
+            top: 0;
+            height: 2447px;
+            background-image: url(${BackgroundDesktop});
+        }
     }
 `
 export const TitleTextWrapper = styled.div`
