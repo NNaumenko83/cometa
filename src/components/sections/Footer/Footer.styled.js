@@ -76,8 +76,15 @@ export const SocialIconWrapper = styled.li`
     }
 
     svg {
-        width: 24px;
-        height: 24px;
+        width: 16px;
+        height: 16px;
+    }
+
+    @media screen and (min-width: 430px) {
+        svg {
+            width: 24px;
+            height: 24px;
+        }
     }
 
     @media screen and (min-width: 768px) {
