@@ -10,7 +10,7 @@ const Hero = () => {
         <StyledHero>
             <Container>
                 <LogoWrapper>
-                    <CometaImg src={CometaImage} alt="Logo" width={500} />
+                    <CometaImg src={CometaImage} alt="Cometa" width={500} />
                     <CometaLogoImg src={CometaLogo} alt="Logo" width={707} />
                 </LogoWrapper>
 
