@@ -4,12 +4,21 @@ export const StyledContactSpace = styled.section`
     position: relative;
     z-index: 3;
     padding-block: 2.8125rem 7.8125rem;
+
+    @media screen and (min-width: 768px) {
+        padding-block: 5.3125rem 8.75rem;
+    }
 `
 
 export const ContentWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
+    max-width: 550px;
+
+    @media screen and (min-width: 768px) {
+        margin-inline: auto;
+    }
 `
 
 export const ContactDescription = styled.p`
@@ -17,6 +26,10 @@ export const ContactDescription = styled.p`
     font-weight: 400;
     line-height: 1.5;
     text-align: center;
+
+    @media screen and (min-width: 768px) {
+        font-size: 1rem;
+    }
 `
 
 export const ContactWrapper = styled.div`
@@ -45,6 +58,10 @@ export const ContactButton = styled.a`
     &:hover {
         background-color: #e03370;
     }
+
+    @media screen and (min-width: 768px) {
+        font-size: 1rem;
+    }
 `
 
 export const OfficeTitle = styled.h2`
@@ -68,4 +85,41 @@ export const OfficeLocation = styled.div`
     font-weight: 700;
 
     text-align: center;
+
+    @media screen and (min-width: 768px) {
+        font-size: 1rem;
+    }
+`
+
+export const ContactsWrapper = styled.div`
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.625rem;
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+    }
+`
+
+export const StyledLeftTriangleImg = styled.img`
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        position: absolute;
+        left: 102px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+`
+export const StyledRightTriangleImg = styled.img`
+    display: none;
+    @media screen and (min-width: 768px) {
+        position: absolute;
+        display: block;
+        right: 102px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 `
