@@ -7,6 +7,8 @@ export const StyledSectionTitle = styled.h2`
 
     text-align: center;
     text-transform: uppercase;
+    position: relative;
+    z-index: 5;
 
     @media screen and (min-width: 768px) {
         font-size: 60px;

@@ -41,6 +41,12 @@ export const Title = styled.h1`
     justify-content: center;
     align-items: center;
     gap: 1.25rem;
+
+    @media screen and (min-width: 768px) {
+        svg {
+            font-size: 1.25rem;
+        }
+    }
 `
 export const TopPartTitle = styled.span`
     display: flex;
