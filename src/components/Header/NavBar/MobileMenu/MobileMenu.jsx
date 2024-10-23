@@ -111,7 +111,7 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
                                     ))}
                                 </LinksWrapper>
                                 <AuthButtonsWrapper>
-                                    <SignUpButton onClick={console.log('Click sign up')}>Sign Up</SignUpButton>
+                                    <SignUpButton onClick={() => console.log('Click sign up')}>Sign Up</SignUpButton>
                                     <LoginButton onClick={() => console.log('Click sign in')}>
                                         Login <PersonIcon />
                                     </LoginButton>
