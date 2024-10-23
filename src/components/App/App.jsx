@@ -1,38 +1,19 @@
-import Header from '../Header/Header'
-import Main from '../Main/Main'
-import About from '../sections/About/About'
-import Career from '../sections/Career/Career'
+import { Route, Routes } from 'react-router-dom'
+import { lazy } from 'react'
 
-import Footer from '../sections/Footer/Footer'
-import Hero from '../sections/Hero/Hero'
-import Team from '../sections/Team/Team'
-import CogaInfo from '../sections/CogaInfo/CogaInfo'
-import PoombInfo from '../sections/PoombInfo/PoombInfo'
+import { SharedLayout } from '../SharedLayout/SharedLayout'
 
-import { AppWrapper } from './App.styled'
-import SpaceBlog from '../sections/SpaceBlog/SpaceBlog'
-import SpaceMedia from '../sections/SpaceMedia/SpaceMedia'
-import ContactSpace from '../sections/ContactSpace/ContactSpace'
-import WorkSpace from '../sections/WorkSpace/WorkSpace'
+const Home = lazy(() => import('../../pages/Home/Home'))
+const NotFound = lazy(() => import('../../pages/NotFound/NotFound'))
 
 function App() {
     return (
-        <AppWrapper>
-            <Header />
-            <Main>
-                <Hero />
-                <About />
-                <WorkSpace />
-                <Team />
-                <CogaInfo />
-                <PoombInfo />
-                <SpaceBlog />
-                <SpaceMedia />
-                <Career />
-                <ContactSpace />
-            </Main>
-            <Footer />
-        </AppWrapper>
+        <Routes>
+            <Route path="/" element={<SharedLayout />}>
+                <Route index element={<Home />} />
+                <Route path="*" element={<NotFound />} />
+            </Route>
+        </Routes>
     )
 }
 
