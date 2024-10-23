@@ -1,6 +1,7 @@
 import AboutSection from './sections/AboutSection/AboutSection'
+import FutureVision from './sections/FutureVision/FutureVision'
 import Hero from './sections/Hero/Hero'
-import OurMission from './sections/OurMission/OurMission'
+import OurMission from './sections/Mission/OurMission'
 
 const About = () => {
     return (
@@ -8,6 +9,7 @@ const About = () => {
             <Hero />
             <AboutSection />
             <OurMission />
+            <FutureVision />
         </>
     )
 }

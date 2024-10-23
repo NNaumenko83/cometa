@@ -50,3 +50,9 @@ export const Img = styled.img`
     height: 100%;
     object-fit: cover;
 `
+
+export const TextWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+`
