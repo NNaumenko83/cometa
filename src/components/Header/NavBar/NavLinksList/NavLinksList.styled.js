@@ -1,4 +1,5 @@
 import styled from '@emotion/styled'
+import { Link } from 'react-router-dom'
 
 export const StyledList = styled.ul`
     display: flex;
@@ -24,7 +25,7 @@ export const ListItem = styled.li`
         /* font-size: 0.75rem; */
     }
 `
-export const Link = styled.a`
+export const StyledLink = styled(Link)`
     height: 100%;
     width: 100%;
     padding: 0.75rem 0.625rem 0.75rem 0.625rem;

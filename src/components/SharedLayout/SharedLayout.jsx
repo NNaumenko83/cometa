@@ -20,8 +20,8 @@ export const SharedLayout = () => {
                             <MutatingDots
                                 height={100}
                                 width={100}
-                                color="#1976d2"
-                                secondaryColor="#1976d2"
+                                color="#f3308d"
+                                secondaryColor="#f3308d"
                                 radius={12.5}
                                 ariaLabel="mutating-dots-loading"
                                 visible={true}

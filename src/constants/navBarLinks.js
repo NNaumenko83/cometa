@@ -1,5 +1,5 @@
 export const navLinks = [
-    { title: 'About us', url: '#' },
+    { title: 'About us', url: 'about' },
     { title: 'Team', url: '#' },
     { title: 'Blog', url: '#' },
     { title: 'COGA token', url: '#' },
