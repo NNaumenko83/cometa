@@ -1,5 +1,4 @@
 import styled from '@emotion/styled'
-import { Link } from 'react-router-dom'
 
 export const StyledList = styled.ul`
     display: flex;
@@ -24,12 +23,4 @@ export const ListItem = styled.li`
     @media screen and (min-width: 51.875rem) {
         /* font-size: 0.75rem; */
     }
-`
-export const StyledLink = styled(Link)`
-    height: 100%;
-    width: 100%;
-    padding: 0.75rem 0.625rem 0.75rem 0.625rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 `
