@@ -5,7 +5,7 @@ export const SuspenseWrapper = styled.div`
     padding-top: 140px;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-grow: 1;
 `
 
 export const AppWrapper = styled.div`
