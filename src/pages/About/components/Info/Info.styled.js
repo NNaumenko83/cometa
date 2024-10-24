@@ -9,6 +9,8 @@ export const InfoWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 18px;
+    position: relative;
+    z-index: 3;
 
     @media screen and (min-width: 768px) {
         flex-direction: row;

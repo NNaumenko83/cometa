@@ -1,7 +1,20 @@
 import Container from '../../../../components/Container/Container'
-import { keyRolesPhoto } from '../../../../constants/AbotPageConstants/keyRolesPhoto'
+import { teamMembers } from '../../../../constants/AbotPageConstants/teamMembers'
 import SecondaryTitleAboutPage from '../../components/SecondaryTitleAboutPage/SecondaryTitleAboutPage'
-import { StyledKeyRolesTeam, Text, PhotoGrid, PhotoItem, Image, ContentWrapper, StyledTriangleImg } from './KeyRolesTeam.styled'
+import {
+    StyledKeyRolesTeam,
+    Text,
+    PhotoGrid,
+    PhotoItem,
+    Image,
+    ContentWrapper,
+    StyledTriangleImg,
+    TitleWrapper,
+    ImgWrapper,
+    Description,
+    LinkedInLink,
+    DescriptionWrapper,
+} from './KeyRolesTeam.styled'
 import TriangleImg from '../../../../assets/images/AboutPage/TriangleLeft.png'
 
 const KeyRolesTeam = () => {
@@ -18,9 +31,22 @@ const KeyRolesTeam = () => {
                         </Text>
                     </div>
                     <PhotoGrid>
-                        {keyRolesPhoto.map((photo, index) => (
+                        {teamMembers.map((member, index) => (
                             <PhotoItem key={index}>
-                                <Image src={photo} alt={`Key Role ${index + 1}`} />
+                                <ImgWrapper>
+                                    <Image src={member.imageSrc} alt={`${member.name}`} />
+                                </ImgWrapper>
+                                <DescriptionWrapper>
+                                    <TitleWrapper>
+                                        <h2>{member.position}</h2>
+                                        <h3>{member.name}</h3>
+                                    </TitleWrapper>
+
+                                    <Description>{member.description}</Description>
+                                    <div>
+                                        <LinkedInLink href={member.linkedin}>linkedin</LinkedInLink>
+                                    </div>
+                                </DescriptionWrapper>
                             </PhotoItem>
                         ))}
                     </PhotoGrid>

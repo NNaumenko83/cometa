@@ -1,3 +1,4 @@
+import ScrollToTop from '../../components/ScrollToTop/ScrollToTop'
 import { StyledAboutPage } from './About.styled'
 import AboutSection from './sections/AboutSection/AboutSection'
 import FutureVision from './sections/FutureVision/FutureVision'
@@ -9,6 +10,7 @@ import OurMission from './sections/Mission/OurMission'
 const About = () => {
     return (
         <StyledAboutPage>
+            <ScrollToTop />
             <Hero />
             <AboutSection />
             <OurMission />
