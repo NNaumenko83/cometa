@@ -19,7 +19,7 @@ import SectionTitleBig from '../../SectionTitleBig/SectionTitleBig'
 
 const SpaceBlog = () => {
     return (
-        <StyledSpaceBlog>
+        <StyledSpaceBlog id="Blog">
             <Container>
                 <ContentWrapper>
                     <TitleCometaWrapper>

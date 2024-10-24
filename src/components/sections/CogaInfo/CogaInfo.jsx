@@ -24,7 +24,7 @@ import CometaImage from '../../../assets/images/CometaHero.png'
 
 const CogaInfo = () => {
     return (
-        <StyledCogaInfoSection>
+        <StyledCogaInfoSection id="Coga">
             <Container>
                 <CogaInfoWrapper>
                     <CometaImgWrapperDesktop>

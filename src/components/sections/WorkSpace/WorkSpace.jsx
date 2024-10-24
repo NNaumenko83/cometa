@@ -6,7 +6,7 @@ import Triangle from '../../../assets/images/WorkSpaceTriangle.png'
 import CometaImage from '../../../assets/images/CometaHero.png'
 
 const WorkSpace = () => (
-    <StyledWorkSpace>
+    <StyledWorkSpace id="Team">
         <Container>
             <WorkSpaceContent>
                 <SectionTitle>Work space</SectionTitle>

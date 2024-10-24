@@ -9,7 +9,7 @@ import TriangleImg from '../../../assets/images/CareerTriangle.png'
 
 const Career = () => {
     return (
-        <StyledCareer>
+        <StyledCareer id="Jobs">
             <Container>
                 <CareerContentWrapper>
                     <TitleLinkWrapper>

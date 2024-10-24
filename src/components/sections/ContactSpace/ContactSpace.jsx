@@ -18,7 +18,7 @@ import {
 
 const ContactSpace = () => {
     return (
-        <StyledContactSpace>
+        <StyledContactSpace id="Contact">
             <Container>
                 <ContentWrapper>
                     <SectionTitle>Contact Space</SectionTitle>

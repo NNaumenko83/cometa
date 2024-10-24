@@ -1,11 +1,11 @@
 import styled from '@emotion/styled'
 
-export const FeatureShowcaseWrapper = styled.div`
+export const StyledProjectShowcase = styled.section`
     position: relative;
     z-index: 3;
     display: flex;
     justify-content: space-around;
-    padding-block-end: 35px;
+    padding-block: 120px 35px;
 
     @media screen and (min-width: 768px) {
         width: 503px;

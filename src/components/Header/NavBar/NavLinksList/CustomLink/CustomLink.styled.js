@@ -13,6 +13,7 @@ export const StyledLink = styled(Link, {
     color: ${({ $isActive }) => ($isActive ? '#f3308d' : '#ffffff')};
     text-decoration: none;
     transition: color 0.3s;
+    cursor: pointer;
 
     &:hover {
         color: ${({ $isActive }) => ($isActive ? 'hotpink' : 'gray')};

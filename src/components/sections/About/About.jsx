@@ -5,7 +5,7 @@ import CometaImg from '../../../assets/images/CometaHero.png'
 import AboutContent from './AboutContent/AboutContent'
 import Container from '../../Container/Container'
 import SocialMedia from './SocialMedia/SocialMedia'
-import FeatureShowcase from './FeatureShowcase/FeatureShowcase'
+
 import LeftTriangle from '../../../assets/images/Big_triangle_1_left.png'
 import RightTriangle from '../../../assets/images/Big_triangle_1_right.png'
 
@@ -22,7 +22,6 @@ const About = () => {
                 </ImgTitleWrapper>
                 <AboutContent />
                 <SocialMedia />
-                <FeatureShowcase />
             </Container>
             <StyledLeftTriangle src={LeftTriangle} alt="Triangle" width={146} />
             <StyledRightTriangle src={RightTriangle} alt="Triangle" width={155} />
