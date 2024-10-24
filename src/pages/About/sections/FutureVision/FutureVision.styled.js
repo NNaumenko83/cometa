@@ -3,6 +3,7 @@ import FeatureTwoBg from '../../../../assets/images/AboutPage/FututeVisionTwoImg
 
 export const StyledFutureVision = styled.section`
     padding-block-start: 100px;
+    overflow: hidden;
 
     @media screen and (min-width: 768px) {
         padding-block-start: 178px;
@@ -58,4 +59,15 @@ export const InfoWrapper = styled.div`
     padding-block: 46px;
     position: relative;
     z-index: 3;
+`
+export const StyledTriangleImg = styled.img`
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: -20px;
+        transform: translateY(-50%);
+        z-index: 3;
+    }
 `

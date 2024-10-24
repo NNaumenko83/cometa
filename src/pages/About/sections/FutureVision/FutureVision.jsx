@@ -2,7 +2,15 @@ import Container from '../../../../components/Container/Container'
 import { VisionOneTextPhoto } from '../../../../constants/AbotPageConstants/VisionOneTextPhoto'
 import { VisionTwoTextPhoto } from '../../../../constants/AbotPageConstants/VisionTwoTextPhoto'
 import Info from '../../components/Info/Info'
-import { StyledFutureVision, MobileFutureTwoWrapper, DesktopFutureTwoWrapper, ContentWrapper, InfoWrapper } from './FutureVision.styled'
+import {
+    StyledFutureVision,
+    MobileFutureTwoWrapper,
+    DesktopFutureTwoWrapper,
+    ContentWrapper,
+    InfoWrapper,
+    StyledTriangleImg,
+} from './FutureVision.styled'
+import TriangleImg from '../../../../assets/images/AboutPage/TriangleRight.png'
 
 const FutureVision = () => {
     return (
@@ -35,6 +43,7 @@ const FutureVision = () => {
                             />
                         </InfoWrapper>
                     </Container>
+                    <StyledTriangleImg src={TriangleImg} alt="Triangle" width={69} />
                 </DesktopFutureTwoWrapper>
             </ContentWrapper>
         </StyledFutureVision>
