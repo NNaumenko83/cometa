@@ -5,7 +5,14 @@ import { StyledCareerList } from './CareerList.styled'
 const CareerList = () => (
     <StyledCareerList>
         {careerData.map((item, index) => (
-            <CareerCard key={index} name={item.name} role={item.role} description={item.description} imageUrl={item.imageUrl} />
+            <CareerCard
+                key={index}
+                name={item.name}
+                role={item.role}
+                description={item.description}
+                imageUrl={item.imageUrl}
+                to={item.readMoreLink}
+            />
         ))}
     </StyledCareerList>
 )

@@ -1,4 +1,5 @@
 import styled from '@emotion/styled'
+import { Link } from 'react-router-dom'
 
 export const StyledCard = styled.li`
     border-radius: 12px;
@@ -89,7 +90,7 @@ export const CardActions = styled.div`
     padding-block: 10px;
 `
 
-export const CardButton = styled.button`
+export const CardLinkSendCV = styled.a`
     width: 104px;
     height: 31px;
 
@@ -105,7 +106,7 @@ export const CardButton = styled.button`
         opacity: 0.8;
     }
 `
-export const ReadMoreLink = styled.a`
+export const ReadMoreLink = styled(Link)`
     /* color: rgb(255, 255, 255); */
     /* font-family: League Spartan, sans-serif; */
     font-size: 16px;

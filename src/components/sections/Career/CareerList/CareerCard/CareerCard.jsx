@@ -6,12 +6,12 @@ import {
     CardTitle,
     CardDescription,
     CardActions,
-    CardButton,
+    CardLinkSendCV,
     ImageWrapper,
     ReadMoreLink,
 } from './CareerCard.styled'
 
-const CareerCard = ({ name, role, description, imageUrl }) => {
+const CareerCard = ({ name, role, description, imageUrl, to }) => {
     return (
         <StyledCard>
             <ImageWrapper>
@@ -22,8 +22,10 @@ const CareerCard = ({ name, role, description, imageUrl }) => {
             <CardContent>
                 <CardDescription>{description}</CardDescription>
                 <CardActions>
-                    <ReadMoreLink href="#">Read more</ReadMoreLink>
-                    <CardButton>send CV</CardButton>
+                    <ReadMoreLink to={to}>Read more</ReadMoreLink>
+                    <CardLinkSendCV href="https://t.me/hr_lissa" target="_blank" rel="noopener noreferrer nofollow">
+                        send CV
+                    </CardLinkSendCV>
                 </CardActions>
             </CardContent>
         </StyledCard>
