@@ -22,7 +22,7 @@ const CareerCard = ({ name, role, description, imageUrl, to }) => {
             <CardContent>
                 <CardDescription>{description}</CardDescription>
                 <CardActions>
-                    <ReadMoreLink to={to}>Read more</ReadMoreLink>
+                    <ReadMoreLink to={`/career/${to}`}>Read more</ReadMoreLink>
                     <CardLinkSendCV href="https://t.me/hr_lissa" target="_blank" rel="noopener noreferrer nofollow">
                         send CV
                     </CardLinkSendCV>

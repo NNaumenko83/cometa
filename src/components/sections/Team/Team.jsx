@@ -1,4 +1,4 @@
-import Button from '../../Button/Button'
+import SharedLink from '../../SharedLink/SharedLink'
 import Container from '../../Container/Container'
 import SectionTitle from '../../SectionTitle/SectionTitle'
 import { StyledTeam, ContentWrapper, BottomButtonText, ButtontextWrapper } from './Team.styled'
@@ -11,7 +11,7 @@ const Team = () => (
                 <SectionTitle>team space</SectionTitle>
                 <TeamList />
                 <ButtontextWrapper>
-                    <Button>Let`s</Button>
+                    <SharedLink>Let`s</SharedLink>
                     <BottomButtonText>Let`s get to know each other</BottomButtonText>
                 </ButtontextWrapper>
             </ContentWrapper>

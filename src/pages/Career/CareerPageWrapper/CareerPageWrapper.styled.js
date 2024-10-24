@@ -1,9 +1,14 @@
 import styled from '@emotion/styled'
+import MobileBg from '../../../assets/images/JobPage/BackgroundMobile.png'
+import MobileDesktop from '../../../assets/images/JobPage/BackgroundDesktop.png'
 
 export const StyledCareer = styled.section`
-    padding-block-start: 4rem;
+    background-image: url(${MobileBg});
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     @media screen and (min-width: 768px) {
-        padding-block-start: 13.125rem;
+        background-image: url(${MobileDesktop});
     }
 `
 export const CareerContentWrapper = styled.div`
@@ -16,6 +21,7 @@ export const CareerContentWrapper = styled.div`
     margin-inline: auto;
 
     @media screen and (min-width: 768px) {
+        margin-block-start: 164px;
         flex-direction: row;
         justify-content: space-around;
     }

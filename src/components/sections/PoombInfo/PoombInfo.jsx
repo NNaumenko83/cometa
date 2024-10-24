@@ -17,7 +17,7 @@ import {
     CometaImgWrapperDesktop,
 } from './PoombInfo.styled'
 import InfoText from '../../Infotext/InfoText'
-import Button from '../../Button/Button'
+import SharedLink from '../../SharedLink/SharedLink'
 import Container from '../../Container/Container'
 import TigerImage from '../../../assets/images/TigerPoomgImg.png'
 import TigerImageDesktop from '../../../assets/images/TigerPoomgImgDesktop.png'
@@ -57,7 +57,7 @@ const PoombInfo = () => {
                             </InfoText>
                         </TitleTextWrapper>
                         <ButtonWrapper>
-                            <Button>$Poomb</Button>
+                            <SharedLink to="https://cogatoken.com/">$Poomb</SharedLink>
                         </ButtonWrapper>
                     </TitleTextButtonWrapper>
 

@@ -16,7 +16,7 @@ import {
     CogaInfoWrapper,
 } from './CogaInfo.styled'
 import InfoText from '../../Infotext/InfoText'
-import Button from '../../Button/Button'
+import SharedLink from '../../SharedLink/SharedLink'
 import Triangle from '../../../assets/images/CogaInfoTriangle.png'
 import CapibaraAustro from '../../../assets/images/CogaInfoCapibaraImg.png'
 import CapibaraAustroDesktop from '../../../assets/images/CogaInfoCapibaraDesktop.png'
@@ -43,7 +43,7 @@ const CogaInfo = () => {
                                 <CometaImg src={CometaImage} alt="Cometa" width={121} />
                             </CometaImgWrapperMobile>
 
-                            <Button>$COGA</Button>
+                            <SharedLink>$COGA</SharedLink>
                         </ButtonWrapper>
                     </ContentWrapper>
                     <CapibaraTriangleWrapperDesktop>

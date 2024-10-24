@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-export const StyledButton = styled.button`
+export const StyledSharedLink = styled.a`
     width: 10.625rem;
     height: 3.1875rem;
 

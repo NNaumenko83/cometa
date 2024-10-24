@@ -9,7 +9,6 @@ const CustomMobileLink = ({ children, to, ...props }) => {
     const match = useMatch(to)
 
     const handleClick = event => {
-        console.log('handleClick:', handleClick)
         event.preventDefault()
 
         const [path, hash] = to.split('#')

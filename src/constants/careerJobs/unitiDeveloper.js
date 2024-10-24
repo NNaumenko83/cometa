@@ -8,32 +8,32 @@ export const unitidevJob = {
         title: 'What does our Unity Developer do?',
         list: [
             {
-                title: 'Master of Code 💻:',
+                title: '1. Master of Code 💻:',
                 description:
                     "You're the one who brings our game ideas to life. Develop and implement game features using Unity to create immersive and exciting player experiences.",
             },
             {
-                title: 'Efficient Problem Solver 🛠:',
+                title: '2. Efficient Problem Solver 🛠:',
                 description:
                     "Tackle complex technical challenges and bugs with creativity and determination. Whether it's optimizing performance or solving gameplay issues, you always find a solution.",
             },
             {
-                title: 'Collaborative Team Player 🤝:',
+                title: '3. Collaborative Team Player 🤝:',
                 description:
                     'Work closely with designers, artists, and other developers to ensure the game looks and feels exactly as envisioned. Your code will seamlessly integrate with the work of others.',
             },
             {
-                title: 'Gameplay Mechanic Engineer ⚙️:',
+                title: '4. Gameplay Mechanic Engineer ⚙️:',
                 description:
                     'Design and implement core gameplay mechanics, ensuring that the game feels intuitive, responsive, and fun. Your work will shape how players interact with the game world.',
             },
             {
-                title: 'Performance Optimizer 🚀:',
+                title: '5. Performance Optimizer 🚀:',
                 description:
                     'Analyze and optimize the game’s performance across different platforms. Your expertise will ensure smooth gameplay, even on lower-end devices.',
             },
             {
-                title: 'Quality Assurance Advocate 🛡:',
+                title: '6. Quality Assurance Advocate 🛡:',
                 description:
                     "Test and debug your code regularly to ensure it's stable and polished. You take pride in delivering clean, bug-free work that meets high industry standards.",
             },

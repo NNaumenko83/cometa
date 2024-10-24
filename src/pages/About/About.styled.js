@@ -6,7 +6,7 @@ export const StyledAboutPage = styled.div`
     background-image: url(${MobileBg});
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 
     @media screen and (min-width: 768px) {
         background-image: url(${DesktopBg});

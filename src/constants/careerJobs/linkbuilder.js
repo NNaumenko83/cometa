@@ -8,32 +8,32 @@ export const linkbuilderJob = {
         title: 'What does our Linkbuilder do?',
         list: [
             {
-                title: 'Master of Backlinks 🔗:',
+                title: '1. Master of Backlinks 🔗:',
                 description:
                     "You're the one who builds high-quality backlinks that boost our site's SEO ranking. Research and acquire authoritative links that drive organic traffic to our platform.",
             },
             {
-                title: 'Strategic Outreach Planner 📧:',
+                title: '2. Strategic Outreach Planner 📧:',
                 description:
                     'Develop and execute outreach campaigns, contacting website owners, bloggers, and influencers to establish mutually beneficial partnerships. Your communication will secure valuable link placements.',
             },
             {
-                title: 'Collaborative Team Player 🤝:',
+                title: '3. Collaborative Team Player 🤝:',
                 description:
                     'Work closely with SEO specialists, content creators, and marketing teams to ensure that your link-building strategies align with our overall marketing goals and content.',
             },
             {
-                title: 'Competitor Analyst 🕵️‍♂️:',
+                title: '4. Competitor Analyst 🕵️‍♂️:',
                 description:
                     "Analyze competitors’ backlinks to identify opportunities for improvement and growth. You'll find gaps in our link profile and capitalize on them to stay ahead of the competition.",
             },
             {
-                title: 'Link Quality Inspector 🔍:',
+                title: '5. Link Quality Inspector 🔍:',
                 description:
                     'Monitor and evaluate the quality of backlinks, ensuring that all links are from credible and relevant sources. You know how to avoid low-quality or harmful links that could negatively impact SEO.',
             },
             {
-                title: 'Performance Optimizer 📊:',
+                title: '6. Performance Optimizer 📊:',
                 description:
                     'Track the effectiveness of your link-building efforts. Analyze key metrics such as domain authority, traffic growth, and keyword rankings, and adjust your strategies for continuous improvement.',
             },
@@ -50,5 +50,4 @@ export const linkbuilderJob = {
         ],
     },
     callToAction: 'Become the face of our game and help us conquer the world!',
-    contact: 'send CV',
 }
