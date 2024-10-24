@@ -23,9 +23,23 @@ export const DesktopFutureTwoWrapper = styled.div`
     @media screen and (min-width: 768px) {
         display: block;
         width: 100%;
-        background-image: linear-gradient(269.43deg, rgb(17, 17, 20) 10%, rgba(22, 22, 28, 0.01) 99.543%), url(${FeatureTwoBg});
+        background-image: url(${FeatureTwoBg});
+        background-position-x: -200px;
         background-size: cover;
         background-repeat: no-repeat;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+
+    ::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(269.43deg, rgb(17, 17, 20) 20%, rgba(22, 22, 28, 0.01) 99.543%);
+        z-index: 1;
     }
 `
 
@@ -42,4 +56,6 @@ export const InfoWrapper = styled.div`
     margin-inline-start: auto;
     padding-inline-start: 85px;
     padding-block: 46px;
+    position: relative;
+    z-index: 3;
 `

@@ -2,7 +2,8 @@ import Container from '../../../../components/Container/Container'
 import { welcomeTextPhoto } from '../../../../constants/AbotPageConstants/WelcomeTextPhoto'
 import Info from '../../components/Info/Info'
 import SecondaryTitleAboutPage from '../../components/SecondaryTitleAboutPage/SecondaryTitleAboutPage'
-import { StyledAbout, Text, TitleWrapper } from './AboutSection.styled'
+import { StyledAbout, Text, TitleWrapper, StyledTriangleImg } from './AboutSection.styled'
+import TriangleImg from '../../../../assets/images/AboutPage/TriangleLeft.png'
 
 const AboutSection = () => {
     return (
@@ -20,6 +21,7 @@ const AboutSection = () => {
                 imgPosition={welcomeTextPhoto.imgPosition}
                 imageWidthDesktop={welcomeTextPhoto.imageWidthDesktop}
             />
+            <StyledTriangleImg src={TriangleImg} alt="Triangle" width={54} />
         </StyledAbout>
     )
 }

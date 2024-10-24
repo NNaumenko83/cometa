@@ -2,6 +2,7 @@ import styled from '@emotion/styled'
 
 export const StyledAbout = styled.section`
     padding-block-start: 60px;
+    position: relative;
 `
 
 export const Text = styled.p`
@@ -23,5 +24,14 @@ export const TitleWrapper = styled.div`
 
     @media screen and (min-width: 768px) {
         margin-block-end: 50px;
+    }
+`
+export const StyledTriangleImg = styled.img`
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        position: absolute;
+        top: 267px;
+        left: 0;
     }
 `
