@@ -2,6 +2,7 @@ import styled from '@emotion/styled'
 
 export const StyledKeyRolesTeam = styled.section`
     padding-block: 100px 350px;
+    position: relative;
     @media screen and (min-width: 768px) {
         padding-blockt: 150px 350px;
     }
@@ -47,4 +48,14 @@ export const Image = styled.img`
     width: 100%;
     height: 100%;
     object-fit: cover;
+`
+export const StyledTriangleImg = styled.img`
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+    }
 `

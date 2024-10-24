@@ -1,7 +1,8 @@
 import Container from '../../../../components/Container/Container'
 import { keyRolesPhoto } from '../../../../constants/AbotPageConstants/keyRolesPhoto'
 import SecondaryTitleAboutPage from '../../components/SecondaryTitleAboutPage/SecondaryTitleAboutPage'
-import { StyledKeyRolesTeam, Text, PhotoGrid, PhotoItem, Image, ContentWrapper } from './KeyRolesTeam.styled'
+import { StyledKeyRolesTeam, Text, PhotoGrid, PhotoItem, Image, ContentWrapper, StyledTriangleImg } from './KeyRolesTeam.styled'
+import TriangleImg from '../../../../assets/images/AboutPage/TriangleLeft.png'
 
 const KeyRolesTeam = () => {
     return (
@@ -25,6 +26,7 @@ const KeyRolesTeam = () => {
                     </PhotoGrid>
                 </ContentWrapper>
             </Container>
+            <StyledTriangleImg src={TriangleImg} alt="Triangle" width={55} />
         </StyledKeyRolesTeam>
     )
 }
