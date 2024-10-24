@@ -1,3 +1,4 @@
+import { StyledAboutPage } from './About.styled'
 import AboutSection from './sections/AboutSection/AboutSection'
 import FutureVision from './sections/FutureVision/FutureVision'
 import Hero from './sections/Hero/Hero'
@@ -7,14 +8,14 @@ import OurMission from './sections/Mission/OurMission'
 
 const About = () => {
     return (
-        <>
+        <StyledAboutPage>
             <Hero />
             <AboutSection />
             <OurMission />
             <FutureVision />
             <HowWeWork />
             <KeyRolesTeam />
-        </>
+        </StyledAboutPage>
     )
 }
 
