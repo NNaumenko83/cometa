@@ -3,7 +3,6 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { navLinks } from '../../../../constants/navBarLinks'
 import {
     Sidebar,
-    MenuLink,
     Backdrop,
     // BackButtonIcon,
     LogoLink,
@@ -17,6 +16,7 @@ import {
 import PersonIcon from '@mui/icons-material/Person'
 
 import CometLogo from '../../../../assets/images/CimetaLogoMobileMenu.png'
+import CustomMobileLink from './CustomMobileLink/CustomMobileLink'
 
 // import { useState } from 'react'
 // import AuthModal from '../../../AuthModal/AuthModal'
@@ -53,7 +53,7 @@ const linkVariants = {
         x: -25,
         transition: {
             type: 'tween',
-            duration: 0.3, // Додаємо плавний перехід
+            duration: 0.3,
         },
     },
 }
@@ -76,6 +76,8 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
     //     setAuthModalOpen(false)
     // }
 
+    //  ;<CustomLink to={`/${link.url}`}>{link.title}</CustomLink>
+
     return (
         <>
             <AnimatePresence>
@@ -96,9 +98,8 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
                             <MenuAndAuthButtonsWrapper>
                                 <LinksWrapper>
                                     {navLinks.map((item, index) => (
-                                        <MenuLink
+                                        <motion.div
                                             key={item.title}
-                                            href={`#${item.url}`}
                                             custom={index}
                                             variants={linkVariants}
                                             initial="closed"
@@ -106,8 +107,8 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
                                             exit="closed"
                                             onClick={toggleMenu}
                                         >
-                                            {item.title}
-                                        </MenuLink>
+                                            <CustomMobileLink to={`/${item.url}`}>{item.title}</CustomMobileLink>
+                                        </motion.div>
                                     ))}
                                 </LinksWrapper>
                                 <AuthButtonsWrapper>
