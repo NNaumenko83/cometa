@@ -8,5 +8,6 @@ export const StyledCareerList = styled.ul`
 
     @media screen and (min-width: 768px) {
         flex-direction: row;
+        align-items: stretch;
     }
 `

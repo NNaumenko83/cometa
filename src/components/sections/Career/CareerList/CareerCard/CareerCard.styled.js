@@ -39,8 +39,6 @@ export const ImageWrapper = styled.div`
         -o-filter: blur(80px);
 
         position: absolute;
-
-        border: 1px solid red;
     }
 `
 
@@ -56,6 +54,11 @@ export const CardContent = styled.div`
     display: flex;
     flex-direction: column;
     gap: 18px;
+
+    @media screen and (min-width: 768px) {
+        flex-grow: 1;
+        justify-content: space-between;
+    }
 `
 
 export const CardTitle = styled.h3`
@@ -109,8 +112,6 @@ export const CardLinkSendCV = styled.a`
     }
 `
 export const ReadMoreLink = styled(Link)`
-    /* color: rgb(255, 255, 255); */
-    /* font-family: League Spartan, sans-serif; */
     font-size: 16px;
     text-align: left;
     transition: all 250ms linear;
