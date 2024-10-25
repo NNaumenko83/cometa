@@ -18,3 +18,16 @@ export const StyledList = styled.ul`
         font-size: 1.125rem;
     }
 `
+
+export const StyledItem = styled.li`
+    transition: all 250ms linear;
+    :hover {
+        transform: scale(1.1);
+        color: #f3308d;
+    }
+`
+
+export const StyledLink = styled.a`
+    display: block;
+    height: 100%;
+`

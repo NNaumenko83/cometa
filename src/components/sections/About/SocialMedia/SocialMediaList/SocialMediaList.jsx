@@ -1,15 +1,15 @@
 import { socialMediaLinksForAbout } from '../../../../../constants/socialMediaLinksForAbout'
-import { StyledList } from './SocialMediaList.styled'
+import { StyledList, StyledItem, StyledLink } from './SocialMediaList.styled'
 
 const SocialMediaList = () => {
     return (
         <StyledList>
             {socialMediaLinksForAbout.map(link => (
-                <li key={link.socialName}>
-                    <a href={link.socialUrl} target="_blank" rel="noopener noreferrer">
+                <StyledItem key={link.socialName}>
+                    <StyledLink href={link.socialUrl} target="_blank" rel="noopener noreferrer nofollow">
                         {link.socialName}
-                    </a>
-                </li>
+                    </StyledLink>
+                </StyledItem>
             ))}
         </StyledList>
     )
