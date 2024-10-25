@@ -43,7 +43,7 @@ const CogaInfo = () => {
                                 <CometaImg src={CometaImage} alt="Cometa" width={121} />
                             </CometaImgWrapperMobile>
 
-                            <SharedLink>$COGA</SharedLink>
+                            <SharedLink to="https://cogatoken.com/">$COGA</SharedLink>
                         </ButtonWrapper>
                     </ContentWrapper>
                     <CapibaraTriangleWrapperDesktop>

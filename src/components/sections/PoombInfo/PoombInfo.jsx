@@ -57,7 +57,7 @@ const PoombInfo = () => {
                             </InfoText>
                         </TitleTextWrapper>
                         <ButtonWrapper>
-                            <SharedLink to="https://cogatoken.com/">$Poomb</SharedLink>
+                            <SharedLink>$Poomb</SharedLink>
                         </ButtonWrapper>
                     </TitleTextButtonWrapper>
 

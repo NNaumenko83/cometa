@@ -1,4 +1,4 @@
-import FeatureVisionTwoImg from '../../assets/images/AboutPage/FututeVisionTwoImg.jpg'
+import FeatureVisionTwoImg from '../../assets/images/AboutPage/FututeVisionTwoImg.webp'
 
 export const VisionTwoTextPhoto = Object.freeze({
     imgUrl: FeatureVisionTwoImg,

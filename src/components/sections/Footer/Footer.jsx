@@ -24,17 +24,29 @@ import MessengerCometa from '../../../assets/images/FooterImages/MessengerCometa
 import { PiInstagramLogo } from 'react-icons/pi'
 import { IoLogoTiktok } from 'react-icons/io5'
 import { BsTwitterX } from 'react-icons/bs'
-import { FaYoutube, FaTelegram, FaDiscord, FaFacebookMessenger } from 'react-icons/fa'
+import { FaYoutube, FaTelegram, /* FaDiscord, */ FaFacebookF, FaLinkedinIn /* FaFacebookMessenger */ } from 'react-icons/fa'
+
 import Container from '../../Container/Container'
+// import { FaLinkedinIn } from 'react-icons/fa'
 
 const socialIcons = [
-    { icon: <PiInstagramLogo size={30} />, alt: 'Instagram', cometaImg: InstagramCometa },
-    { icon: <IoLogoTiktok size={30} />, alt: 'TikTok', cometaImg: TikTokCometa },
-    { icon: <BsTwitterX size={30} />, alt: 'Twitter', cometaImg: TwiterXCometa },
-    { icon: <FaYoutube size={30} />, alt: 'YouTube', cometaImg: YouTubeCometa },
-    { icon: <FaTelegram size={30} />, alt: 'Telegram', cometaImg: TelegramCometa },
-    { icon: <FaDiscord size={30} />, alt: 'Discord', cometaImg: DiscordCometa },
-    { icon: <FaFacebookMessenger size={30} />, alt: 'Messenger', cometaImg: MessengerCometa },
+    { icon: <FaLinkedinIn size={30} />, alt: 'LinkedIn', cometaImg: DiscordCometa, url: 'https://www.linkedin.com/company/cometspace/' },
+    { icon: <FaTelegram size={30} />, alt: 'Telegram', cometaImg: TelegramCometa, url: 'https://t.me/cometspace_company' },
+    { icon: <FaYoutube size={30} />, alt: 'YouTube', cometaImg: YouTubeCometa, url: 'https://www.youtube.com/@CometaSpace' },
+    { icon: <BsTwitterX size={30} />, alt: 'Twitter', cometaImg: TwiterXCometa, url: 'https://x.com/CometSpace_Dev' },
+    { icon: <IoLogoTiktok size={30} />, alt: 'TikTok', cometaImg: TikTokCometa, url: 'https://www.tiktok.com/@cometa_space' },
+    {
+        icon: <PiInstagramLogo size={30} />,
+        alt: 'Instagram',
+        cometaImg: InstagramCometa,
+        url: 'https://www.instagram.com/cometspace_company/',
+    },
+    {
+        icon: <FaFacebookF size={30} />,
+        alt: 'Facebook',
+        cometaImg: MessengerCometa,
+        url: 'https://www.facebook.com/people/Poomb-Creatures-Community/61561848287998/',
+    },
 ]
 
 const Footer = () => {
@@ -68,10 +80,12 @@ const Footer = () => {
 
                 <SocialMediaWrapper>
                     <SocialLinksList>
-                        {socialIcons.map(({ icon, cometaImg }, index) => (
+                        {socialIcons.map(({ icon, cometaImg, alt, url }, index) => (
                             <SocialIconWrapper key={index}>
                                 <SocialCometaImg src={cometaImg} alt="Comet background" width={78} />
-                                <SocialIconLink href="#">{icon}</SocialIconLink>
+                                <SocialIconLink href={url} aria-label={alt} target="_blank" rel="noopener noreferrer nofollow">
+                                    {icon}
+                                </SocialIconLink>
                             </SocialIconWrapper>
                         ))}
                     </SocialLinksList>
