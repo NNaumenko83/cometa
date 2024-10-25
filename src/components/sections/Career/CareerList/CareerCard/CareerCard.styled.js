@@ -98,12 +98,14 @@ export const CardLinkSendCV = styled.a`
     justify-content: center;
     align-items: center;
     border-radius: 28px;
-    background: rgb(255, 48, 141);
+    background-color: rgb(255, 48, 141);
     font-size: 22px;
     font-weight: 600;
     color: #ffffff;
+    transition: all 250ms linear;
     &:hover {
-        opacity: 0.8;
+        background-color: #ffffff;
+        color: rgb(255, 48, 141);
     }
 `
 export const ReadMoreLink = styled(Link)`
@@ -111,4 +113,8 @@ export const ReadMoreLink = styled(Link)`
     /* font-family: League Spartan, sans-serif; */
     font-size: 16px;
     text-align: left;
+    transition: all 250ms linear;
+    &:hover {
+        color: rgb(255, 48, 141);
+    }
 `
