@@ -12,7 +12,7 @@ function Carousel() {
         speed: 1000,
         dots: true,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 2500,
         centerMode: true,
         centerPadding: '0px',
         responsive: [
