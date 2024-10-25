@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 export const Sidebar = styled(motion.div)`
     position: fixed;
@@ -30,20 +31,6 @@ export const LinksWrapper = styled.div`
     /* gap: 8px; */
 `
 
-export const MenuLink = styled(motion.a)`
-    display: block;
-    padding: 0.75rem 1.25rem;
-    padding: 8px 0;
-    /* text-decoration: none; */
-    cursor: pointer;
-
-    border-bottom: 0.0625rem solid rgb(233, 233, 233);
-
-    &:hover {
-        color: #f0f0f0;
-    }
-`
-
 export const Backdrop = styled.div`
     position: fixed;
     top: 0;
@@ -68,7 +55,7 @@ export const CloseButton = styled.button`
 export const SidebarTitle = styled.h2`
     line-height: 1.1;
 `
-export const LogoLink = styled.a`
+export const LogoLink = styled(Link)`
     width: 100%;
     display: flex;
     justify-content: center;

@@ -1,10 +1,10 @@
 import styled from '@emotion/styled'
 
 export const StyledKeyRolesTeam = styled.section`
-    padding-block: 6.25rem 21.875rem;
+    padding-block-start: 6.25rem;
     position: relative;
     @media screen and (min-width: 48rem) {
-        padding-blockt: 9.375rem 21.875rem;
+        padding-block-start: 9.375rem;
     }
 `
 

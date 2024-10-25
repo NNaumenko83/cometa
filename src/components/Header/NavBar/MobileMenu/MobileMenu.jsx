@@ -91,7 +91,7 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
                             exit={{ opacity: 0 }}
                         />
                         <Sidebar initial="closed" animate="open" exit="closed" variants={menuVariants}>
-                            <LogoLink href="#">
+                            <LogoLink to="/" onClick={toggleMenu}>
                                 <img src={CometLogo} alt={CometLogo} width={170} />
                             </LogoLink>
 
