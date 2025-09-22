@@ -26,22 +26,22 @@ const ContactSpace = () => {
                         <ContactDescription>
                             To learn more about our products, games, discuss opportunities, or ask any questions, please contact us
                         </ContactDescription>
-                        <ContactButton href="mailto:info@cometspace.net">info@cometspace.net</ContactButton>
+                        <ContactButton href="#">info@example.com</ContactButton>
                     </ContactWrapper>
                     <ContactWrapper>
                         <ContactDescription>For new partnerships and collaborations, please, contact us</ContactDescription>
                         <ContactsWrapper>
-                            <ContactButton href="mailto:collaboration@cometspace.net">collaboration@cometspace.net</ContactButton>
-                            <ContactButton href="mailto:partnership@cometspace.net">partnership@cometspace.net</ContactButton>
+                            <ContactButton href="#">collaboration@example.com</ContactButton>
+                            <ContactButton href="#">partnership@example.com</ContactButton>
                         </ContactsWrapper>
                     </ContactWrapper>
 
                     <ContactWrapper>
-                        <OfficeTitle>Our offset</OfficeTitle>
+                        <OfficeTitle>Our office</OfficeTitle>
                         <ContactsWrapper>
-                            <OfficeLocation>Ukraine, Kyiv</OfficeLocation>
-                            <OfficeLocation>UAE, Dubai</OfficeLocation>
-                            <OfficeLocation>Germany, Berlin</OfficeLocation>
+                            <OfficeLocation>USA, New York</OfficeLocation>
+                            <OfficeLocation>UK, London</OfficeLocation>
+                            <OfficeLocation>Japan, Tokyo</OfficeLocation>
                         </ContactsWrapper>
                     </ContactWrapper>
                 </ContentWrapper>

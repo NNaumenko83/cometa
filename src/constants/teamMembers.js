@@ -1,30 +1,26 @@
-import MaximCTO from '../assets/images/Team_photo/Maksym_CTO.jpeg'
-import LesiaCMO from '../assets/images/Team_photo/Lesia_CMO.jpeg'
-import VeraPR from '../assets/images/Team_photo/Vera_PRLead.jpeg'
-
 export const teamMembers = [
     {
         id: 1,
-        name: 'Lesia Kovtun',
+        name: 'Maria Lopez',
         position: 'Chief Marketing Officer',
         description:
-            'The driving force behind our marketing strategies, our CMO Lesia connects Comet Space with a global audience. With a deep understanding of the gaming market and digital trends, Lesia leads our campaigns, ensuring that our message reaches the right people at the right time.',
-        imageUrl: LesiaCMO,
+            'Maria is the creative spark behind our marketing vision. She builds strategies that connect our product with audiences worldwide, combining data with bold ideas to grow the brand.',
+        imageUrl: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?crop=faces&fit=crop&w=400&h=400',
     },
     {
         id: 2,
-        name: 'Maksym Bondarenko',
+        name: 'Alex Carter',
         position: 'Chief Technology Officer',
         description:
-            "Our CTO Maks is the technical expert leading the company's technological direction. He manages the development of innovative products in mobile gaming and Web3, ensuring the highest quality and alignment with market trends.",
-        imageUrl: MaximCTO,
+            'Alex leads the technology roadmap of the company. With expertise in mobile gaming and Web3, he ensures every product is scalable, innovative, and future-ready.',
+        imageUrl: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=faces&fit=crop&w=400&h=400',
     },
     {
         id: 3,
-        name: 'Vera Filimonova',
+        name: 'John Smith',
         position: 'PR Lead',
         description:
-            'The PR expert in our team, Vera manages our public image and brand recognition. Through press releases, media interactions, and influencer partnerships, Vera keeps the world talking about Comet Space.',
-        imageUrl: VeraPR,
+            'John manages communications and brand reputation. From media relations to influencer campaigns, he ensures the company stays visible and respected in the industry.',
+        imageUrl: 'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?crop=faces&fit=crop&w=400&h=400',
     },
 ]

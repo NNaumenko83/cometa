@@ -38,9 +38,7 @@ const VacancyInfo = ({ job }) => {
                 </div>
 
                 <p>{job.pageInfo.callToAction}</p>
-                <CardLinkSendCV href="https://t.me/hr_lissa" target="_blank" rel="noopener noreferrer nofollow">
-                    send CV
-                </CardLinkSendCV>
+                <CardLinkSendCV href="#" /* target="_blank" rel="noopener noreferrer nofollow" */>send CV</CardLinkSendCV>
             </VacancyDescriptionWrapper>
         </VacancyInfoContainer>
     )

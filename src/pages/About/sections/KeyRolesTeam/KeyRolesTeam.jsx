@@ -25,9 +25,9 @@ const KeyRolesTeam = () => {
                     <div>
                         <SecondaryTitleAboutPage>Meet the Key Roles Team 💻</SecondaryTitleAboutPage>
                         <Text>
-                            At the heart of COMET SPACE is our Space Team, a group of experts with extensive experience in game development,
-                            blockchain, NFTs, and cryptocurrency. Together, we are driven by a shared vision of creating exceptional gaming
-                            products that push the boundaries of technology.
+                            At the heart of COMETA SPACE is our Space Team, a group of experts with extensive experience in game
+                            development, blockchain, NFTs, and cryptocurrency. Together, we are driven by a shared vision of creating
+                            exceptional gaming products that push the boundaries of technology.
                         </Text>
                     </div>
                     <PhotoGrid>

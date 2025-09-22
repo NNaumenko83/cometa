@@ -1,57 +1,50 @@
-import SMM_Anastasia from '../../assets/images/AboutPage/KeyRoles/Photo1.jpg'
-import PR_Vera from '../../assets/images/AboutPage/KeyRoles/Photo2.jpg'
-import CMO_Lesia from '../../assets/images/AboutPage/KeyRoles/Photo3.jpg'
-import TechLead_Artur from '../../assets/images/AboutPage/KeyRoles/Photo4.jpg'
-import CTO_Maks from '../../assets/images/AboutPage/KeyRoles/Photo5.jpg'
-import CEO_Igor from '../../assets/images/AboutPage/KeyRoles/Photo6.jpg'
-
 export const teamMembers = [
     {
-        name: 'Anastasia Miakota',
-
+        name: 'Emily Johnson',
+        position: 'SMM Specialist',
         description:
-            'Our Development Team is the backbone of Comet Space. They work tirelessly to turn our game concepts into reality using cutting-edge technology like Unity, Web3, and blockchain.',
+            'Emily brings creativity and consistency to our online presence. She develops social media campaigns that engage communities and grow brand awareness globally.',
         linkedin: '#',
-        imageSrc: SMM_Anastasia,
+        imageSrc: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?crop=faces&fit=crop&w=400&h=400',
     },
     {
-        name: 'Vera Filimonova',
+        name: 'Daniel Roberts',
         position: 'PR Lead',
         description:
-            'Our Development Team is the backbone of Comet Space. They work tirelessly to turn our game concepts into reality using cutting-edge technology like Unity, Web3, and blockchain.',
+            'Daniel manages our public image and media relationships. From press releases to influencer collaborations, he ensures our brand is always in the spotlight.',
         linkedin: '#',
-        imageSrc: PR_Vera,
+        imageSrc: 'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?crop=faces&fit=crop&w=400&h=400',
     },
     {
-        name: 'Arthur Chebaniuk',
+        name: 'Arthur White',
         position: 'Tech Lead',
         description:
-            'Arthur is responsible for overseeing the technical development of our projects. With hands-on experience in Unity, game mechanics, and system architecture, Arthur guides the team to deliver top-notch products that meet both player expectations and industry standards.',
+            'Arthur oversees the technical development of our projects. With hands-on experience in Unity, game mechanics, and system architecture, he guides the team toward delivering top-notch products.',
         linkedin: '#',
-        imageSrc: TechLead_Artur,
+        imageSrc: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?auto=format&crop=faces&fit=crop&w=400&h=400&q=80',
     },
     {
-        name: 'Lesia Kovtun',
+        name: 'Sophia Martinez',
         position: 'Chief Marketing Officer',
         description:
-            'The driving force behind our marketing strategies, our CMO Lesia connects Comet Space with a global audience. With a deep understanding of the gaming market and digital trends, Lesia leads our campaigns, ensuring that our message reaches the right people at the right time.',
-        linkedin: 'https://www.linkedin.com/in/lesia-kovtun',
-        imageSrc: CMO_Lesia,
+            'Sophia is the driving force behind our marketing strategies. She connects our product with a global audience and ensures campaigns reach the right people at the right time.',
+        linkedin: '#',
+        imageSrc: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?crop=faces&fit=crop&w=400&h=400',
     },
     {
-        name: 'Maksym Bondarenko',
+        name: 'Alex Carter',
         position: 'Chief Technology Officer',
         description:
-            "Our CTO Maksym is the technical expert leading the company's technological direction. He manages the development of innovative products in mobile gaming and Web3, ensuring the highest quality and alignment with market trends.",
+            'Alex leads the technological direction of the company. He ensures our products are innovative, scalable, and aligned with the latest industry trends.',
         linkedin: '#',
-        imageSrc: CTO_Maks,
+        imageSrc: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=faces&fit=crop&w=400&h=400',
     },
     {
-        name: 'Igor Haleta',
+        name: 'Michael Brown',
         position: 'Chief Executive Officer',
         description:
-            "Igor is responsible for the company's overall strategy and business management. He drives key decisions aimed at growth and oversees the direction of mobile gaming and Web3 crypto projects. Additionally, he represents the company externally and builds strategic partnerships.",
+            'Michael is responsible for the overall strategy and business management. He drives growth, oversees partnerships, and ensures the company’s vision stays on track.',
         linkedin: '#',
-        imageSrc: CEO_Igor,
+        imageSrc: 'https://images.unsplash.com/photo-1557862921-37829c790f19?crop=faces&fit=crop&w=400&h=400',
     },
 ]

@@ -6,7 +6,7 @@ export const VisionTwoTextPhoto = Object.freeze({
     imageWidthDesktop: '590px',
     title: 'Our Vision for the Future 🌍',
     text: {
-        paragraph1: `At Comet Space, our vision goes beyond creating games - we’re setting new standards for the gaming and crypto industries. Our primary goals reflect our ambition to innovate and lead in the digital era.`,
+        paragraph1: `At Cometa Space, our vision goes beyond creating games - we’re setting new standards for the gaming and crypto industries. Our primary goals reflect our ambition to innovate and lead in the digital era.`,
         paragraph2: `1. Democratizing the Gaming Industry: We aim to make the gaming crypto world accessible to everyone. Our goal is to remove the barriers between players and financial opportunities within games, allowing people from all walks of life to earn money while they play.`,
         paragraph3: `2. Building a Thriving Ecosystem: Through the integration of Web3, NFTs, and cryptocurrency, we are working to create an ecosystem where in-game achievements have real value. Our goal is to make gaming more rewarding, giving players the power to convert their progress into real-world earnings.`,
         paragraph4: `3. Global Expansion: We aim to attract millions of players worldwide by developing innovative and engaging projects that resonate with global audiences. By creating games that are both immersive and financially rewarding, we want to expand our user base and foster a global community.`,

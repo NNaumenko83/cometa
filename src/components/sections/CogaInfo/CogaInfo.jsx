@@ -24,7 +24,7 @@ import CometaImage from '../../../assets/images/CometaHero.png'
 
 const CogaInfo = () => {
     return (
-        <StyledCogaInfoSection id="Coga">
+        <StyledCogaInfoSection id="Axis">
             <Container>
                 <CogaInfoWrapper>
                     <CometaImgWrapperDesktop>
@@ -32,9 +32,9 @@ const CogaInfo = () => {
                     </CometaImgWrapperDesktop>
                     <ContentWrapper>
                         <TitleTextWrapper>
-                            <SectionTitle>what`s coga</SectionTitle>
+                            <SectionTitle>what`s axis</SectionTitle>
                             <InfoText>
-                                $COGA, the native token of Comet Space, powers Poomb Creatures. Players earn, trade, and invest $COGA,
+                                $AXIS, the native token of Cometa Space, powers Poomb Creatures. Players earn, trade, and invest $AXIS,
                                 creating real-world value. The Play-to-Earn (P2E) model lets players earn income through gameplay and NFTs.
                             </InfoText>
                         </TitleTextWrapper>
@@ -43,7 +43,7 @@ const CogaInfo = () => {
                                 <CometaImg src={CometaImage} alt="Cometa" width={121} />
                             </CometaImgWrapperMobile>
 
-                            <SharedLink to="https://cogatoken.com/">$COGA</SharedLink>
+                            <SharedLink to="https://cogatoken.com/">$AXIS</SharedLink>
                         </ButtonWrapper>
                     </ContentWrapper>
                     <CapibaraTriangleWrapperDesktop>

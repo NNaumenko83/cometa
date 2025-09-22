@@ -10,7 +10,7 @@ const AboutSection = () => {
         <StyledAbout>
             <Container>
                 <TitleWrapper>
-                    <SecondaryTitleAboutPage>About Comet Space:</SecondaryTitleAboutPage>
+                    <SecondaryTitleAboutPage>About Cometa Space:</SecondaryTitleAboutPage>
                     <Text>When Gaming Meets... Crypto, Al, Technologies and the best Professionals</Text>
                 </TitleWrapper>
             </Container>

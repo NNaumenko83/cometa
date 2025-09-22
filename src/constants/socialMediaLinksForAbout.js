@@ -1,22 +1,22 @@
 export const socialMediaLinksForAbout = [
     {
         socialName: 'facebook',
-        socialUrl: 'https://www.facebook.com/people/Poomb-Creatures-Community/61561848287998/',
+        socialUrl: '#',
     },
     {
-        socialName: 'Linkedin',
-        socialUrl: 'https://www.linkedin.com/company/cometspace/',
+        socialName: 'linkedin',
+        socialUrl: '#',
     },
     {
         socialName: 'instagram',
-        socialUrl: 'https://www.instagram.com/cometspace_company/',
+        socialUrl: '#',
     },
     {
         socialName: 'twitter',
-        socialUrl: 'https://x.com/CometSpace_Dev',
+        socialUrl: '#',
     },
     {
         socialName: 'telegram',
-        socialUrl: 'https://t.me/cometspace_company',
+        socialUrl: '#',
     },
 ]
